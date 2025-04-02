@@ -67,7 +67,6 @@ size_factors <- estimateSizeFactorsForMatrix(count_matrix)
 
 # Normalize the counts by dividing each column by its corresponding size factor and round the result
 normalized_counts <- t(t(count_matrix) / size_factors)
-normalized_counts <- round(normalized_counts, digits = 0)
 
 # Convert the normalized matrix back to a data frame and add gene names as a column
 normalized_counts <- as.data.frame(normalized_counts)
