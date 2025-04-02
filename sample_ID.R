@@ -65,7 +65,7 @@ rownames(count_matrix) <- combined_table$gene_name
 # Estimate size factors for the count matrix
 size_factors <- estimateSizeFactorsForMatrix(count_matrix)
 
-# Normalize the counts by dividing each column by its corresponding size factor and round the result
+# Normalize the counts by dividing each column by its corresponding size factor
 normalized_counts <- t(t(count_matrix) / size_factors)
 
 # Convert the normalized matrix back to a data frame and add gene names as a column
