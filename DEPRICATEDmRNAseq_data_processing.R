@@ -1,7 +1,7 @@
 # Required packages
 library("AnnotationDbi")
 library("org.Hs.eg.db")
-library("DESeq")
+library("DESeq2")
 
 # ==== Merge separated htseq count files into one table ====
 tumor_folders = list.files(pattern = "data", full.names = T)
@@ -105,3 +105,4 @@ for (c in 1:length(files)){
   
   write.table(mrna_c, paste(tumor_type[c], "mRNA_scaled_expression.txt", sep = "_"), sep= "\t", col.names = NA, quote = F)
 }
+
