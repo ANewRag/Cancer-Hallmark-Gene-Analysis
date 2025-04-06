@@ -1,0 +1,912 @@
+gene_symbol	gs_name	gs_description
+AAAS	HALLMARK_DNA_REPAIR	Genes involved in DNA repair.
+ABAT	HALLMARK_P53_PATHWAY	Genes involved in p53 pathways and networks.
+ABCC5	HALLMARK_P53_PATHWAY	Genes involved in p53 pathways and networks.
+ABHD4	HALLMARK_P53_PATHWAY	Genes involved in p53 pathways and networks.
+ABL1	HALLMARK_G2M_CHECKPOINT	Genes involved in the G2/M checkpoint, as in progression through the cell division cycle.
+ACVR1B	HALLMARK_P53_PATHWAY	Genes involved in p53 pathways and networks.
+ADA	HALLMARK_DNA_REPAIR	Genes involved in DNA repair.
+ADA	HALLMARK_P53_PATHWAY	Genes involved in p53 pathways and networks.
+ADCY6	HALLMARK_DNA_REPAIR	Genes involved in DNA repair.
+ADD1	HALLMARK_APOPTOSIS	Genes mediating programmed cell death (apoptosis) by activation of caspases.
+ADRM1	HALLMARK_DNA_REPAIR	Genes involved in DNA repair.
+AEN	HALLMARK_P53_PATHWAY	Genes involved in p53 pathways and networks.
+AGO4	HALLMARK_DNA_REPAIR	Genes involved in DNA repair.
+AIFM3	HALLMARK_APOPTOSIS	Genes mediating programmed cell death (apoptosis) by activation of caspases.
+AK1	HALLMARK_DNA_REPAIR	Genes involved in DNA repair.
+AK1	HALLMARK_P53_PATHWAY	Genes involved in p53 pathways and networks.
+AK2	HALLMARK_E2F_TARGETS	Genes encoding cell cycle related targets of E2F transcription factors.
+AK3	HALLMARK_DNA_REPAIR	Genes involved in DNA repair.
+ALOX15B	HALLMARK_P53_PATHWAY	Genes involved in p53 pathways and networks.
+ALYREF	HALLMARK_DNA_REPAIR	Genes involved in DNA repair.
+AMD1	HALLMARK_G2M_CHECKPOINT	Genes involved in the G2/M checkpoint, as in progression through the cell division cycle.
+ANKH	HALLMARK_APOPTOSIS	Genes mediating programmed cell death (apoptosis) by activation of caspases.
+ANKRA2	HALLMARK_P53_PATHWAY	Genes involved in p53 pathways and networks.
+ANP32E	HALLMARK_E2F_TARGETS	Genes encoding cell cycle related targets of E2F transcription factors.
+ANXA1	HALLMARK_APOPTOSIS	Genes mediating programmed cell death (apoptosis) by activation of caspases.
+APAF1	HALLMARK_P53_PATHWAY	Genes involved in p53 pathways and networks.
+APP	HALLMARK_APOPTOSIS	Genes mediating programmed cell death (apoptosis) by activation of caspases.
+APP	HALLMARK_P53_PATHWAY	Genes involved in p53 pathways and networks.
+APRT	HALLMARK_DNA_REPAIR	Genes involved in DNA repair.
+ARID4A	HALLMARK_G2M_CHECKPOINT	Genes involved in the G2/M checkpoint, as in progression through the cell division cycle.
+ARL6IP1	HALLMARK_DNA_REPAIR	Genes involved in DNA repair.
+ASF1A	HALLMARK_E2F_TARGETS	Genes encoding cell cycle related targets of E2F transcription factors.
+ASF1B	HALLMARK_E2F_TARGETS	Genes encoding cell cycle related targets of E2F transcription factors.
+ATAD2	HALLMARK_E2F_TARGETS	Genes encoding cell cycle related targets of E2F transcription factors.
+ATF3	HALLMARK_APOPTOSIS	Genes mediating programmed cell death (apoptosis) by activation of caspases.
+ATF3	HALLMARK_P53_PATHWAY	Genes involved in p53 pathways and networks.
+ATF5	HALLMARK_G2M_CHECKPOINT	Genes involved in the G2/M checkpoint, as in progression through the cell division cycle.
+ATRX	HALLMARK_G2M_CHECKPOINT	Genes involved in the G2/M checkpoint, as in progression through the cell division cycle.
+AURKA	HALLMARK_E2F_TARGETS	Genes encoding cell cycle related targets of E2F transcription factors.
+AURKA	HALLMARK_G2M_CHECKPOINT	Genes involved in the G2/M checkpoint, as in progression through the cell division cycle.
+AURKB	HALLMARK_E2F_TARGETS	Genes encoding cell cycle related targets of E2F transcription factors.
+AURKB	HALLMARK_G2M_CHECKPOINT	Genes involved in the G2/M checkpoint, as in progression through the cell division cycle.
+AVPR1A	HALLMARK_APOPTOSIS	Genes mediating programmed cell death (apoptosis) by activation of caspases.
+BAIAP2	HALLMARK_P53_PATHWAY	Genes involved in p53 pathways and networks.
+BAK1	HALLMARK_P53_PATHWAY	Genes involved in p53 pathways and networks.
+BARD1	HALLMARK_E2F_TARGETS	Genes encoding cell cycle related targets of E2F transcription factors.
+BARD1	HALLMARK_G2M_CHECKPOINT	Genes involved in the G2/M checkpoint, as in progression through the cell division cycle.
+BAX	HALLMARK_APOPTOSIS	Genes mediating programmed cell death (apoptosis) by activation of caspases.
+BAX	HALLMARK_P53_PATHWAY	Genes involved in p53 pathways and networks.
+BCAM	HALLMARK_DNA_REPAIR	Genes involved in DNA repair.
+BCAP31	HALLMARK_APOPTOSIS	Genes mediating programmed cell death (apoptosis) by activation of caspases.
+BCAP31	HALLMARK_DNA_REPAIR	Genes involved in DNA repair.
+BCL10	HALLMARK_APOPTOSIS	Genes mediating programmed cell death (apoptosis) by activation of caspases.
+BCL2L1	HALLMARK_APOPTOSIS	Genes mediating programmed cell death (apoptosis) by activation of caspases.
+BCL2L10	HALLMARK_APOPTOSIS	Genes mediating programmed cell death (apoptosis) by activation of caspases.
+BCL2L11	HALLMARK_APOPTOSIS	Genes mediating programmed cell death (apoptosis) by activation of caspases.
+BCL2L2	HALLMARK_APOPTOSIS	Genes mediating programmed cell death (apoptosis) by activation of caspases.
+BCL3	HALLMARK_G2M_CHECKPOINT	Genes involved in the G2/M checkpoint, as in progression through the cell division cycle.
+BGN	HALLMARK_APOPTOSIS	Genes mediating programmed cell death (apoptosis) by activation of caspases.
+BID	HALLMARK_APOPTOSIS	Genes mediating programmed cell death (apoptosis) by activation of caspases.
+BIK	HALLMARK_APOPTOSIS	Genes mediating programmed cell death (apoptosis) by activation of caspases.
+BIRC3	HALLMARK_APOPTOSIS	Genes mediating programmed cell death (apoptosis) by activation of caspases.
+BIRC5	HALLMARK_E2F_TARGETS	Genes encoding cell cycle related targets of E2F transcription factors.
+BIRC5	HALLMARK_G2M_CHECKPOINT	Genes involved in the G2/M checkpoint, as in progression through the cell division cycle.
+BLCAP	HALLMARK_P53_PATHWAY	Genes involved in p53 pathways and networks.
+BMF	HALLMARK_APOPTOSIS	Genes mediating programmed cell death (apoptosis) by activation of caspases.
+BMP2	HALLMARK_APOPTOSIS	Genes mediating programmed cell death (apoptosis) by activation of caspases.
+BMP2	HALLMARK_P53_PATHWAY	Genes involved in p53 pathways and networks.
+BNIP3L	HALLMARK_APOPTOSIS	Genes mediating programmed cell death (apoptosis) by activation of caspases.
+BOLA2	HALLMARK_DNA_REPAIR	Genes involved in DNA repair.
+BRCA1	HALLMARK_APOPTOSIS	Genes mediating programmed cell death (apoptosis) by activation of caspases.
+BRCA1	HALLMARK_E2F_TARGETS	Genes encoding cell cycle related targets of E2F transcription factors.
+BRCA2	HALLMARK_E2F_TARGETS	Genes encoding cell cycle related targets of E2F transcription factors.
+BRCA2	HALLMARK_G2M_CHECKPOINT	Genes involved in the G2/M checkpoint, as in progression through the cell division cycle.
+BRF2	HALLMARK_DNA_REPAIR	Genes involved in DNA repair.
+BRMS1L	HALLMARK_E2F_TARGETS	Genes encoding cell cycle related targets of E2F transcription factors.
+BTG1	HALLMARK_P53_PATHWAY	Genes involved in p53 pathways and networks.
+BTG2	HALLMARK_APOPTOSIS	Genes mediating programmed cell death (apoptosis) by activation of caspases.
+BTG2	HALLMARK_P53_PATHWAY	Genes involved in p53 pathways and networks.
+BTG3	HALLMARK_APOPTOSIS	Genes mediating programmed cell death (apoptosis) by activation of caspases.
+BUB1	HALLMARK_G2M_CHECKPOINT	Genes involved in the G2/M checkpoint, as in progression through the cell division cycle.
+BUB1B	HALLMARK_E2F_TARGETS	Genes encoding cell cycle related targets of E2F transcription factors.
+BUB3	HALLMARK_G2M_CHECKPOINT	Genes involved in the G2/M checkpoint, as in progression through the cell division cycle.
+CANT1	HALLMARK_DNA_REPAIR	Genes involved in DNA repair.
+CASP1	HALLMARK_APOPTOSIS	Genes mediating programmed cell death (apoptosis) by activation of caspases.
+CASP1	HALLMARK_P53_PATHWAY	Genes involved in p53 pathways and networks.
+CASP2	HALLMARK_APOPTOSIS	Genes mediating programmed cell death (apoptosis) by activation of caspases.
+CASP3	HALLMARK_APOPTOSIS	Genes mediating programmed cell death (apoptosis) by activation of caspases.
+CASP4	HALLMARK_APOPTOSIS	Genes mediating programmed cell death (apoptosis) by activation of caspases.
+CASP6	HALLMARK_APOPTOSIS	Genes mediating programmed cell death (apoptosis) by activation of caspases.
+CASP7	HALLMARK_APOPTOSIS	Genes mediating programmed cell death (apoptosis) by activation of caspases.
+CASP8	HALLMARK_APOPTOSIS	Genes mediating programmed cell death (apoptosis) by activation of caspases.
+CASP8AP2	HALLMARK_G2M_CHECKPOINT	Genes involved in the G2/M checkpoint, as in progression through the cell division cycle.
+CASP9	HALLMARK_APOPTOSIS	Genes mediating programmed cell death (apoptosis) by activation of caspases.
+CAV1	HALLMARK_APOPTOSIS	Genes mediating programmed cell death (apoptosis) by activation of caspases.
+CBX1	HALLMARK_G2M_CHECKPOINT	Genes involved in the G2/M checkpoint, as in progression through the cell division cycle.
+CBX5	HALLMARK_E2F_TARGETS	Genes encoding cell cycle related targets of E2F transcription factors.
+CCNA1	HALLMARK_APOPTOSIS	Genes mediating programmed cell death (apoptosis) by activation of caspases.
+CCNA2	HALLMARK_G2M_CHECKPOINT	Genes involved in the G2/M checkpoint, as in progression through the cell division cycle.
+CCNB2	HALLMARK_E2F_TARGETS	Genes encoding cell cycle related targets of E2F transcription factors.
+CCNB2	HALLMARK_G2M_CHECKPOINT	Genes involved in the G2/M checkpoint, as in progression through the cell division cycle.
+CCND1	HALLMARK_APOPTOSIS	Genes mediating programmed cell death (apoptosis) by activation of caspases.
+CCND1	HALLMARK_G2M_CHECKPOINT	Genes involved in the G2/M checkpoint, as in progression through the cell division cycle.
+CCND2	HALLMARK_APOPTOSIS	Genes mediating programmed cell death (apoptosis) by activation of caspases.
+CCND2	HALLMARK_P53_PATHWAY	Genes involved in p53 pathways and networks.
+CCND3	HALLMARK_P53_PATHWAY	Genes involved in p53 pathways and networks.
+CCNE1	HALLMARK_E2F_TARGETS	Genes encoding cell cycle related targets of E2F transcription factors.
+CCNF	HALLMARK_G2M_CHECKPOINT	Genes involved in the G2/M checkpoint, as in progression through the cell division cycle.
+CCNG1	HALLMARK_P53_PATHWAY	Genes involved in p53 pathways and networks.
+CCNK	HALLMARK_P53_PATHWAY	Genes involved in p53 pathways and networks.
+CCNO	HALLMARK_DNA_REPAIR	Genes involved in DNA repair.
+CCNT1	HALLMARK_G2M_CHECKPOINT	Genes involved in the G2/M checkpoint, as in progression through the cell division cycle.
+CCP110	HALLMARK_E2F_TARGETS	Genes encoding cell cycle related targets of E2F transcription factors.
+CCP110	HALLMARK_P53_PATHWAY	Genes involved in p53 pathways and networks.
+CD14	HALLMARK_APOPTOSIS	Genes mediating programmed cell death (apoptosis) by activation of caspases.
+CD2	HALLMARK_APOPTOSIS	Genes mediating programmed cell death (apoptosis) by activation of caspases.
+CD38	HALLMARK_APOPTOSIS	Genes mediating programmed cell death (apoptosis) by activation of caspases.
+CD44	HALLMARK_APOPTOSIS	Genes mediating programmed cell death (apoptosis) by activation of caspases.
+CD69	HALLMARK_APOPTOSIS	Genes mediating programmed cell death (apoptosis) by activation of caspases.
+CD81	HALLMARK_P53_PATHWAY	Genes involved in p53 pathways and networks.
+CD82	HALLMARK_P53_PATHWAY	Genes involved in p53 pathways and networks.
+CDA	HALLMARK_DNA_REPAIR	Genes involved in DNA repair.
+CDC20	HALLMARK_E2F_TARGETS	Genes encoding cell cycle related targets of E2F transcription factors.
+CDC20	HALLMARK_G2M_CHECKPOINT	Genes involved in the G2/M checkpoint, as in progression through the cell division cycle.
+CDC25A	HALLMARK_E2F_TARGETS	Genes encoding cell cycle related targets of E2F transcription factors.
+CDC25A	HALLMARK_G2M_CHECKPOINT	Genes involved in the G2/M checkpoint, as in progression through the cell division cycle.
+CDC25B	HALLMARK_APOPTOSIS	Genes mediating programmed cell death (apoptosis) by activation of caspases.
+CDC25B	HALLMARK_E2F_TARGETS	Genes encoding cell cycle related targets of E2F transcription factors.
+CDC25B	HALLMARK_G2M_CHECKPOINT	Genes involved in the G2/M checkpoint, as in progression through the cell division cycle.
+CDC27	HALLMARK_G2M_CHECKPOINT	Genes involved in the G2/M checkpoint, as in progression through the cell division cycle.
+CDC45	HALLMARK_G2M_CHECKPOINT	Genes involved in the G2/M checkpoint, as in progression through the cell division cycle.
+CDC6	HALLMARK_G2M_CHECKPOINT	Genes involved in the G2/M checkpoint, as in progression through the cell division cycle.
+CDC7	HALLMARK_G2M_CHECKPOINT	Genes involved in the G2/M checkpoint, as in progression through the cell division cycle.
+CDCA3	HALLMARK_E2F_TARGETS	Genes encoding cell cycle related targets of E2F transcription factors.
+CDCA8	HALLMARK_E2F_TARGETS	Genes encoding cell cycle related targets of E2F transcription factors.
+CDH13	HALLMARK_P53_PATHWAY	Genes involved in p53 pathways and networks.
+CDK1	HALLMARK_E2F_TARGETS	Genes encoding cell cycle related targets of E2F transcription factors.
+CDK1	HALLMARK_G2M_CHECKPOINT	Genes involved in the G2/M checkpoint, as in progression through the cell division cycle.
+CDK2	HALLMARK_APOPTOSIS	Genes mediating programmed cell death (apoptosis) by activation of caspases.
+CDK4	HALLMARK_E2F_TARGETS	Genes encoding cell cycle related targets of E2F transcription factors.
+CDK4	HALLMARK_G2M_CHECKPOINT	Genes involved in the G2/M checkpoint, as in progression through the cell division cycle.
+CDK5R1	HALLMARK_P53_PATHWAY	Genes involved in p53 pathways and networks.
+CDKN1A	HALLMARK_APOPTOSIS	Genes mediating programmed cell death (apoptosis) by activation of caspases.
+CDKN1A	HALLMARK_E2F_TARGETS	Genes encoding cell cycle related targets of E2F transcription factors.
+CDKN1A	HALLMARK_P53_PATHWAY	Genes involved in p53 pathways and networks.
+CDKN1B	HALLMARK_APOPTOSIS	Genes mediating programmed cell death (apoptosis) by activation of caspases.
+CDKN1B	HALLMARK_E2F_TARGETS	Genes encoding cell cycle related targets of E2F transcription factors.
+CDKN1B	HALLMARK_G2M_CHECKPOINT	Genes involved in the G2/M checkpoint, as in progression through the cell division cycle.
+CDKN2A	HALLMARK_E2F_TARGETS	Genes encoding cell cycle related targets of E2F transcription factors.
+CDKN2A	HALLMARK_P53_PATHWAY	Genes involved in p53 pathways and networks.
+CDKN2AIP	HALLMARK_P53_PATHWAY	Genes involved in p53 pathways and networks.
+CDKN2B	HALLMARK_P53_PATHWAY	Genes involved in p53 pathways and networks.
+CDKN2C	HALLMARK_E2F_TARGETS	Genes encoding cell cycle related targets of E2F transcription factors.
+CDKN2C	HALLMARK_G2M_CHECKPOINT	Genes involved in the G2/M checkpoint, as in progression through the cell division cycle.
+CDKN3	HALLMARK_E2F_TARGETS	Genes encoding cell cycle related targets of E2F transcription factors.
+CDKN3	HALLMARK_G2M_CHECKPOINT	Genes involved in the G2/M checkpoint, as in progression through the cell division cycle.
+CEBPA	HALLMARK_P53_PATHWAY	Genes involved in p53 pathways and networks.
+CENPA	HALLMARK_G2M_CHECKPOINT	Genes involved in the G2/M checkpoint, as in progression through the cell division cycle.
+CENPE	HALLMARK_E2F_TARGETS	Genes encoding cell cycle related targets of E2F transcription factors.
+CENPE	HALLMARK_G2M_CHECKPOINT	Genes involved in the G2/M checkpoint, as in progression through the cell division cycle.
+CENPF	HALLMARK_G2M_CHECKPOINT	Genes involved in the G2/M checkpoint, as in progression through the cell division cycle.
+CENPM	HALLMARK_E2F_TARGETS	Genes encoding cell cycle related targets of E2F transcription factors.
+CETN2	HALLMARK_DNA_REPAIR	Genes involved in DNA repair.
+CFLAR	HALLMARK_APOPTOSIS	Genes mediating programmed cell death (apoptosis) by activation of caspases.
+CGRRF1	HALLMARK_P53_PATHWAY	Genes involved in p53 pathways and networks.
+CHAF1A	HALLMARK_G2M_CHECKPOINT	Genes involved in the G2/M checkpoint, as in progression through the cell division cycle.
+CHEK1	HALLMARK_E2F_TARGETS	Genes encoding cell cycle related targets of E2F transcription factors.
+CHEK1	HALLMARK_G2M_CHECKPOINT	Genes involved in the G2/M checkpoint, as in progression through the cell division cycle.
+CHEK2	HALLMARK_E2F_TARGETS	Genes encoding cell cycle related targets of E2F transcription factors.
+CHMP1A	HALLMARK_G2M_CHECKPOINT	Genes involved in the G2/M checkpoint, as in progression through the cell division cycle.
+CIT	HALLMARK_E2F_TARGETS	Genes encoding cell cycle related targets of E2F transcription factors.
+CKS1B	HALLMARK_E2F_TARGETS	Genes encoding cell cycle related targets of E2F transcription factors.
+CKS1B	HALLMARK_G2M_CHECKPOINT	Genes involved in the G2/M checkpoint, as in progression through the cell division cycle.
+CKS2	HALLMARK_E2F_TARGETS	Genes encoding cell cycle related targets of E2F transcription factors.
+CKS2	HALLMARK_G2M_CHECKPOINT	Genes involved in the G2/M checkpoint, as in progression through the cell division cycle.
+CLCA2	HALLMARK_P53_PATHWAY	Genes involved in p53 pathways and networks.
+CLP1	HALLMARK_DNA_REPAIR	Genes involved in DNA repair.
+CLU	HALLMARK_APOPTOSIS	Genes mediating programmed cell death (apoptosis) by activation of caspases.
+CMPK2	HALLMARK_DNA_REPAIR	Genes involved in DNA repair.
+CNOT9	HALLMARK_E2F_TARGETS	Genes encoding cell cycle related targets of E2F transcription factors.
+COQ8A	HALLMARK_P53_PATHWAY	Genes involved in p53 pathways and networks.
+COX17	HALLMARK_DNA_REPAIR	Genes involved in DNA repair.
+CREBBP	HALLMARK_APOPTOSIS	Genes mediating programmed cell death (apoptosis) by activation of caspases.
+CSE1L	HALLMARK_E2F_TARGETS	Genes encoding cell cycle related targets of E2F transcription factors.
+CSRNP2	HALLMARK_P53_PATHWAY	Genes involved in p53 pathways and networks.
+CSTF3	HALLMARK_DNA_REPAIR	Genes involved in DNA repair.
+CTCF	HALLMARK_E2F_TARGETS	Genes encoding cell cycle related targets of E2F transcription factors.
+CTCF	HALLMARK_G2M_CHECKPOINT	Genes involved in the G2/M checkpoint, as in progression through the cell division cycle.
+CTH	HALLMARK_APOPTOSIS	Genes mediating programmed cell death (apoptosis) by activation of caspases.
+CTNNB1	HALLMARK_APOPTOSIS	Genes mediating programmed cell death (apoptosis) by activation of caspases.
+CTPS1	HALLMARK_E2F_TARGETS	Genes encoding cell cycle related targets of E2F transcription factors.
+CTSD	HALLMARK_P53_PATHWAY	Genes involved in p53 pathways and networks.
+CTSF	HALLMARK_P53_PATHWAY	Genes involved in p53 pathways and networks.
+CUL1	HALLMARK_G2M_CHECKPOINT	Genes involved in the G2/M checkpoint, as in progression through the cell division cycle.
+CUL3	HALLMARK_G2M_CHECKPOINT	Genes involved in the G2/M checkpoint, as in progression through the cell division cycle.
+CUL4A	HALLMARK_G2M_CHECKPOINT	Genes involved in the G2/M checkpoint, as in progression through the cell division cycle.
+CUL5	HALLMARK_G2M_CHECKPOINT	Genes involved in the G2/M checkpoint, as in progression through the cell division cycle.
+CYFIP2	HALLMARK_P53_PATHWAY	Genes involved in p53 pathways and networks.
+CYLD	HALLMARK_APOPTOSIS	Genes mediating programmed cell death (apoptosis) by activation of caspases.
+DAD1	HALLMARK_DNA_REPAIR	Genes involved in DNA repair.
+DAP	HALLMARK_APOPTOSIS	Genes mediating programmed cell death (apoptosis) by activation of caspases.
+DAP3	HALLMARK_APOPTOSIS	Genes mediating programmed cell death (apoptosis) by activation of caspases.
+DBF4	HALLMARK_G2M_CHECKPOINT	Genes involved in the G2/M checkpoint, as in progression through the cell division cycle.
+DCK	HALLMARK_E2F_TARGETS	Genes encoding cell cycle related targets of E2F transcription factors.
+DCLRE1B	HALLMARK_E2F_TARGETS	Genes encoding cell cycle related targets of E2F transcription factors.
+DCN	HALLMARK_APOPTOSIS	Genes mediating programmed cell death (apoptosis) by activation of caspases.
+DCTN4	HALLMARK_DNA_REPAIR	Genes involved in DNA repair.
+DCTPP1	HALLMARK_E2F_TARGETS	Genes encoding cell cycle related targets of E2F transcription factors.
+DCXR	HALLMARK_P53_PATHWAY	Genes involved in p53 pathways and networks.
+DDB1	HALLMARK_DNA_REPAIR	Genes involved in DNA repair.
+DDB2	HALLMARK_DNA_REPAIR	Genes involved in DNA repair.
+DDB2	HALLMARK_P53_PATHWAY	Genes involved in p53 pathways and networks.
+DDIT3	HALLMARK_APOPTOSIS	Genes mediating programmed cell death (apoptosis) by activation of caspases.
+DDIT3	HALLMARK_P53_PATHWAY	Genes involved in p53 pathways and networks.
+DDIT4	HALLMARK_P53_PATHWAY	Genes involved in p53 pathways and networks.
+DDX39A	HALLMARK_E2F_TARGETS	Genes encoding cell cycle related targets of E2F transcription factors.
+DDX39A	HALLMARK_G2M_CHECKPOINT	Genes involved in the G2/M checkpoint, as in progression through the cell division cycle.
+DEF6	HALLMARK_P53_PATHWAY	Genes involved in p53 pathways and networks.
+DEK	HALLMARK_E2F_TARGETS	Genes encoding cell cycle related targets of E2F transcription factors.
+DEPDC1	HALLMARK_E2F_TARGETS	Genes encoding cell cycle related targets of E2F transcription factors.
+DFFA	HALLMARK_APOPTOSIS	Genes mediating programmed cell death (apoptosis) by activation of caspases.
+DGCR8	HALLMARK_DNA_REPAIR	Genes involved in DNA repair.
+DGKA	HALLMARK_P53_PATHWAY	Genes involved in p53 pathways and networks.
+DGUOK	HALLMARK_DNA_REPAIR	Genes involved in DNA repair.
+DIABLO	HALLMARK_APOPTOSIS	Genes mediating programmed cell death (apoptosis) by activation of caspases.
+DIAPH3	HALLMARK_E2F_TARGETS	Genes encoding cell cycle related targets of E2F transcription factors.
+DKC1	HALLMARK_G2M_CHECKPOINT	Genes involved in the G2/M checkpoint, as in progression through the cell division cycle.
+DLGAP5	HALLMARK_E2F_TARGETS	Genes encoding cell cycle related targets of E2F transcription factors.
+DMD	HALLMARK_G2M_CHECKPOINT	Genes involved in the G2/M checkpoint, as in progression through the cell division cycle.
+DNAJA1	HALLMARK_APOPTOSIS	Genes mediating programmed cell death (apoptosis) by activation of caspases.
+DNAJC3	HALLMARK_APOPTOSIS	Genes mediating programmed cell death (apoptosis) by activation of caspases.
+DNM1L	HALLMARK_APOPTOSIS	Genes mediating programmed cell death (apoptosis) by activation of caspases.
+DNMT1	HALLMARK_E2F_TARGETS	Genes encoding cell cycle related targets of E2F transcription factors.
+DNTTIP2	HALLMARK_P53_PATHWAY	Genes involved in p53 pathways and networks.
+DONSON	HALLMARK_E2F_TARGETS	Genes encoding cell cycle related targets of E2F transcription factors.
+DPYD	HALLMARK_APOPTOSIS	Genes mediating programmed cell death (apoptosis) by activation of caspases.
+DR1	HALLMARK_G2M_CHECKPOINT	Genes involved in the G2/M checkpoint, as in progression through the cell division cycle.
+DRAM1	HALLMARK_P53_PATHWAY	Genes involved in p53 pathways and networks.
+DSCC1	HALLMARK_E2F_TARGETS	Genes encoding cell cycle related targets of E2F transcription factors.
+DTYMK	HALLMARK_G2M_CHECKPOINT	Genes involved in the G2/M checkpoint, as in progression through the cell division cycle.
+DUT	HALLMARK_DNA_REPAIR	Genes involved in DNA repair.
+DUT	HALLMARK_E2F_TARGETS	Genes encoding cell cycle related targets of E2F transcription factors.
+E2F1	HALLMARK_G2M_CHECKPOINT	Genes involved in the G2/M checkpoint, as in progression through the cell division cycle.
+E2F2	HALLMARK_G2M_CHECKPOINT	Genes involved in the G2/M checkpoint, as in progression through the cell division cycle.
+E2F3	HALLMARK_G2M_CHECKPOINT	Genes involved in the G2/M checkpoint, as in progression through the cell division cycle.
+E2F4	HALLMARK_G2M_CHECKPOINT	Genes involved in the G2/M checkpoint, as in progression through the cell division cycle.
+E2F8	HALLMARK_E2F_TARGETS	Genes encoding cell cycle related targets of E2F transcription factors.
+EBP	HALLMARK_APOPTOSIS	Genes mediating programmed cell death (apoptosis) by activation of caspases.
+EDF1	HALLMARK_DNA_REPAIR	Genes involved in DNA repair.
+EED	HALLMARK_E2F_TARGETS	Genes encoding cell cycle related targets of E2F transcription factors.
+EFNA5	HALLMARK_G2M_CHECKPOINT	Genes involved in the G2/M checkpoint, as in progression through the cell division cycle.
+EGF	HALLMARK_G2M_CHECKPOINT	Genes involved in the G2/M checkpoint, as in progression through the cell division cycle.
+EGR3	HALLMARK_APOPTOSIS	Genes mediating programmed cell death (apoptosis) by activation of caspases.
+EI24	HALLMARK_P53_PATHWAY	Genes involved in p53 pathways and networks.
+EIF1B	HALLMARK_DNA_REPAIR	Genes involved in DNA repair.
+EIF2S1	HALLMARK_E2F_TARGETS	Genes encoding cell cycle related targets of E2F transcription factors.
+ELL	HALLMARK_DNA_REPAIR	Genes involved in DNA repair.
+ELOA	HALLMARK_DNA_REPAIR	Genes involved in DNA repair.
+ELP1	HALLMARK_P53_PATHWAY	Genes involved in p53 pathways and networks.
+EMP1	HALLMARK_APOPTOSIS	Genes mediating programmed cell death (apoptosis) by activation of caspases.
+ENO2	HALLMARK_APOPTOSIS	Genes mediating programmed cell death (apoptosis) by activation of caspases.
+EPHA2	HALLMARK_P53_PATHWAY	Genes involved in p53 pathways and networks.
+EPHX1	HALLMARK_P53_PATHWAY	Genes involved in p53 pathways and networks.
+EPS8L2	HALLMARK_P53_PATHWAY	Genes involved in p53 pathways and networks.
+ERBB2	HALLMARK_APOPTOSIS	Genes mediating programmed cell death (apoptosis) by activation of caspases.
+ERBB3	HALLMARK_APOPTOSIS	Genes mediating programmed cell death (apoptosis) by activation of caspases.
+ERCC1	HALLMARK_DNA_REPAIR	Genes involved in DNA repair.
+ERCC2	HALLMARK_DNA_REPAIR	Genes involved in DNA repair.
+ERCC3	HALLMARK_DNA_REPAIR	Genes involved in DNA repair.
+ERCC4	HALLMARK_DNA_REPAIR	Genes involved in DNA repair.
+ERCC5	HALLMARK_DNA_REPAIR	Genes involved in DNA repair.
+ERCC5	HALLMARK_P53_PATHWAY	Genes involved in p53 pathways and networks.
+ERCC8	HALLMARK_DNA_REPAIR	Genes involved in DNA repair.
+EREG	HALLMARK_APOPTOSIS	Genes mediating programmed cell death (apoptosis) by activation of caspases.
+ESPL1	HALLMARK_E2F_TARGETS	Genes encoding cell cycle related targets of E2F transcription factors.
+ESPL1	HALLMARK_G2M_CHECKPOINT	Genes involved in the G2/M checkpoint, as in progression through the cell division cycle.
+ETF1	HALLMARK_APOPTOSIS	Genes mediating programmed cell death (apoptosis) by activation of caspases.
+EWSR1	HALLMARK_G2M_CHECKPOINT	Genes involved in the G2/M checkpoint, as in progression through the cell division cycle.
+EXO1	HALLMARK_G2M_CHECKPOINT	Genes involved in the G2/M checkpoint, as in progression through the cell division cycle.
+EXOSC8	HALLMARK_E2F_TARGETS	Genes encoding cell cycle related targets of E2F transcription factors.
+EZH2	HALLMARK_E2F_TARGETS	Genes encoding cell cycle related targets of E2F transcription factors.
+EZH2	HALLMARK_G2M_CHECKPOINT	Genes involved in the G2/M checkpoint, as in progression through the cell division cycle.
+F2	HALLMARK_APOPTOSIS	Genes mediating programmed cell death (apoptosis) by activation of caspases.
+F2R	HALLMARK_APOPTOSIS	Genes mediating programmed cell death (apoptosis) by activation of caspases.
+F2R	HALLMARK_P53_PATHWAY	Genes involved in p53 pathways and networks.
+FAM162A	HALLMARK_P53_PATHWAY	Genes involved in p53 pathways and networks.
+FANCC	HALLMARK_G2M_CHECKPOINT	Genes involved in the G2/M checkpoint, as in progression through the cell division cycle.
+FAS	HALLMARK_APOPTOSIS	Genes mediating programmed cell death (apoptosis) by activation of caspases.
+FAS	HALLMARK_P53_PATHWAY	Genes involved in p53 pathways and networks.
+FASLG	HALLMARK_APOPTOSIS	Genes mediating programmed cell death (apoptosis) by activation of caspases.
+FBXO5	HALLMARK_G2M_CHECKPOINT	Genes involved in the G2/M checkpoint, as in progression through the cell division cycle.
+FBXW7	HALLMARK_P53_PATHWAY	Genes involved in p53 pathways and networks.
+FDXR	HALLMARK_APOPTOSIS	Genes mediating programmed cell death (apoptosis) by activation of caspases.
+FDXR	HALLMARK_P53_PATHWAY	Genes involved in p53 pathways and networks.
+FEN1	HALLMARK_DNA_REPAIR	Genes involved in DNA repair.
+FEZ1	HALLMARK_APOPTOSIS	Genes mediating programmed cell death (apoptosis) by activation of caspases.
+FGF13	HALLMARK_P53_PATHWAY	Genes involved in p53 pathways and networks.
+FOS	HALLMARK_P53_PATHWAY	Genes involved in p53 pathways and networks.
+FOXN3	HALLMARK_G2M_CHECKPOINT	Genes involved in the G2/M checkpoint, as in progression through the cell division cycle.
+FOXO3	HALLMARK_P53_PATHWAY	Genes involved in p53 pathways and networks.
+FUCA1	HALLMARK_P53_PATHWAY	Genes involved in p53 pathways and networks.
+G3BP1	HALLMARK_G2M_CHECKPOINT	Genes involved in the G2/M checkpoint, as in progression through the cell division cycle.
+GADD45A	HALLMARK_APOPTOSIS	Genes mediating programmed cell death (apoptosis) by activation of caspases.
+GADD45A	HALLMARK_P53_PATHWAY	Genes involved in p53 pathways and networks.
+GADD45B	HALLMARK_APOPTOSIS	Genes mediating programmed cell death (apoptosis) by activation of caspases.
+GCH1	HALLMARK_APOPTOSIS	Genes mediating programmed cell death (apoptosis) by activation of caspases.
+GINS1	HALLMARK_E2F_TARGETS	Genes encoding cell cycle related targets of E2F transcription factors.
+GINS2	HALLMARK_G2M_CHECKPOINT	Genes involved in the G2/M checkpoint, as in progression through the cell division cycle.
+GINS3	HALLMARK_E2F_TARGETS	Genes encoding cell cycle related targets of E2F transcription factors.
+GINS4	HALLMARK_E2F_TARGETS	Genes encoding cell cycle related targets of E2F transcription factors.
+GLS2	HALLMARK_P53_PATHWAY	Genes involved in p53 pathways and networks.
+GM2A	HALLMARK_P53_PATHWAY	Genes involved in p53 pathways and networks.
+GMPR2	HALLMARK_DNA_REPAIR	Genes involved in DNA repair.
+GNA15	HALLMARK_APOPTOSIS	Genes mediating programmed cell death (apoptosis) by activation of caspases.
+GPX1	HALLMARK_APOPTOSIS	Genes mediating programmed cell death (apoptosis) by activation of caspases.
+GPX2	HALLMARK_P53_PATHWAY	Genes involved in p53 pathways and networks.
+GPX3	HALLMARK_APOPTOSIS	Genes mediating programmed cell death (apoptosis) by activation of caspases.
+GPX4	HALLMARK_APOPTOSIS	Genes mediating programmed cell death (apoptosis) by activation of caspases.
+GPX4	HALLMARK_DNA_REPAIR	Genes involved in DNA repair.
+GSDME	HALLMARK_DNA_REPAIR	Genes involved in DNA repair.
+GSN	HALLMARK_APOPTOSIS	Genes mediating programmed cell death (apoptosis) by activation of caspases.
+GSPT1	HALLMARK_E2F_TARGETS	Genes encoding cell cycle related targets of E2F transcription factors.
+GSPT1	HALLMARK_G2M_CHECKPOINT	Genes involved in the G2/M checkpoint, as in progression through the cell division cycle.
+GSR	HALLMARK_APOPTOSIS	Genes mediating programmed cell death (apoptosis) by activation of caspases.
+GSTM1	HALLMARK_APOPTOSIS	Genes mediating programmed cell death (apoptosis) by activation of caspases.
+GTF2A2	HALLMARK_DNA_REPAIR	Genes involved in DNA repair.
+GTF2B	HALLMARK_DNA_REPAIR	Genes involved in DNA repair.
+GTF2F1	HALLMARK_DNA_REPAIR	Genes involved in DNA repair.
+GTF2H1	HALLMARK_DNA_REPAIR	Genes involved in DNA repair.
+GTF2H3	HALLMARK_DNA_REPAIR	Genes involved in DNA repair.
+GTF2H5	HALLMARK_DNA_REPAIR	Genes involved in DNA repair.
+GTF3C5	HALLMARK_DNA_REPAIR	Genes involved in DNA repair.
+GUCY2D	HALLMARK_APOPTOSIS	Genes mediating programmed cell death (apoptosis) by activation of caspases.
+GUK1	HALLMARK_DNA_REPAIR	Genes involved in DNA repair.
+H1-0	HALLMARK_APOPTOSIS	Genes mediating programmed cell death (apoptosis) by activation of caspases.
+H1-2	HALLMARK_P53_PATHWAY	Genes involved in p53 pathways and networks.
+H2AC25	HALLMARK_P53_PATHWAY	Genes involved in p53 pathways and networks.
+H2AJ	HALLMARK_P53_PATHWAY	Genes involved in p53 pathways and networks.
+H2AX	HALLMARK_E2F_TARGETS	Genes encoding cell cycle related targets of E2F transcription factors.
+H2AX	HALLMARK_G2M_CHECKPOINT	Genes involved in the G2/M checkpoint, as in progression through the cell division cycle.
+H2AZ1	HALLMARK_E2F_TARGETS	Genes encoding cell cycle related targets of E2F transcription factors.
+H2AZ1	HALLMARK_G2M_CHECKPOINT	Genes involved in the G2/M checkpoint, as in progression through the cell division cycle.
+H2AZ2	HALLMARK_G2M_CHECKPOINT	Genes involved in the G2/M checkpoint, as in progression through the cell division cycle.
+H2BC12	HALLMARK_G2M_CHECKPOINT	Genes involved in the G2/M checkpoint, as in progression through the cell division cycle.
+HBEGF	HALLMARK_P53_PATHWAY	Genes involved in p53 pathways and networks.
+HCLS1	HALLMARK_DNA_REPAIR	Genes involved in DNA repair.
+HDAC3	HALLMARK_P53_PATHWAY	Genes involved in p53 pathways and networks.
+HELLS	HALLMARK_E2F_TARGETS	Genes encoding cell cycle related targets of E2F transcription factors.
+HEXIM1	HALLMARK_P53_PATHWAY	Genes involved in p53 pathways and networks.
+HGF	HALLMARK_APOPTOSIS	Genes mediating programmed cell death (apoptosis) by activation of caspases.
+HIF1A	HALLMARK_G2M_CHECKPOINT	Genes involved in the G2/M checkpoint, as in progression through the cell division cycle.
+HINT1	HALLMARK_P53_PATHWAY	Genes involved in p53 pathways and networks.
+HIRA	HALLMARK_G2M_CHECKPOINT	Genes involved in the G2/M checkpoint, as in progression through the cell division cycle.
+HMGA1	HALLMARK_E2F_TARGETS	Genes encoding cell cycle related targets of E2F transcription factors.
+HMGA1	HALLMARK_G2M_CHECKPOINT	Genes involved in the G2/M checkpoint, as in progression through the cell division cycle.
+HMGB2	HALLMARK_APOPTOSIS	Genes mediating programmed cell death (apoptosis) by activation of caspases.
+HMGB2	HALLMARK_E2F_TARGETS	Genes encoding cell cycle related targets of E2F transcription factors.
+HMGB3	HALLMARK_E2F_TARGETS	Genes encoding cell cycle related targets of E2F transcription factors.
+HMGB3	HALLMARK_G2M_CHECKPOINT	Genes involved in the G2/M checkpoint, as in progression through the cell division cycle.
+HMGN2	HALLMARK_G2M_CHECKPOINT	Genes involved in the G2/M checkpoint, as in progression through the cell division cycle.
+HMMR	HALLMARK_E2F_TARGETS	Genes encoding cell cycle related targets of E2F transcription factors.
+HMMR	HALLMARK_G2M_CHECKPOINT	Genes involved in the G2/M checkpoint, as in progression through the cell division cycle.
+HMOX1	HALLMARK_APOPTOSIS	Genes mediating programmed cell death (apoptosis) by activation of caspases.
+HMOX1	HALLMARK_P53_PATHWAY	Genes involved in p53 pathways and networks.
+HNRNPD	HALLMARK_E2F_TARGETS	Genes encoding cell cycle related targets of E2F transcription factors.
+HNRNPD	HALLMARK_G2M_CHECKPOINT	Genes involved in the G2/M checkpoint, as in progression through the cell division cycle.
+HNRNPU	HALLMARK_G2M_CHECKPOINT	Genes involved in the G2/M checkpoint, as in progression through the cell division cycle.
+HOXC10	HALLMARK_G2M_CHECKPOINT	Genes involved in the G2/M checkpoint, as in progression through the cell division cycle.
+HPRT1	HALLMARK_DNA_REPAIR	Genes involved in DNA repair.
+HRAS	HALLMARK_P53_PATHWAY	Genes involved in p53 pathways and networks.
+HSPA4L	HALLMARK_P53_PATHWAY	Genes involved in p53 pathways and networks.
+HSPA8	HALLMARK_G2M_CHECKPOINT	Genes involved in the G2/M checkpoint, as in progression through the cell division cycle.
+HSPB1	HALLMARK_APOPTOSIS	Genes mediating programmed cell death (apoptosis) by activation of caspases.
+HUS1	HALLMARK_E2F_TARGETS	Genes encoding cell cycle related targets of E2F transcription factors.
+HUS1	HALLMARK_G2M_CHECKPOINT	Genes involved in the G2/M checkpoint, as in progression through the cell division cycle.
+IER3	HALLMARK_APOPTOSIS	Genes mediating programmed cell death (apoptosis) by activation of caspases.
+IER3	HALLMARK_P53_PATHWAY	Genes involved in p53 pathways and networks.
+IER5	HALLMARK_P53_PATHWAY	Genes involved in p53 pathways and networks.
+IFI30	HALLMARK_P53_PATHWAY	Genes involved in p53 pathways and networks.
+IFITM3	HALLMARK_APOPTOSIS	Genes mediating programmed cell death (apoptosis) by activation of caspases.
+IFNB1	HALLMARK_APOPTOSIS	Genes mediating programmed cell death (apoptosis) by activation of caspases.
+IFNGR1	HALLMARK_APOPTOSIS	Genes mediating programmed cell death (apoptosis) by activation of caspases.
+IGF2R	HALLMARK_APOPTOSIS	Genes mediating programmed cell death (apoptosis) by activation of caspases.
+IGFBP6	HALLMARK_APOPTOSIS	Genes mediating programmed cell death (apoptosis) by activation of caspases.
+IL18	HALLMARK_APOPTOSIS	Genes mediating programmed cell death (apoptosis) by activation of caspases.
+IL1A	HALLMARK_APOPTOSIS	Genes mediating programmed cell death (apoptosis) by activation of caspases.
+IL1A	HALLMARK_P53_PATHWAY	Genes involved in p53 pathways and networks.
+IL1B	HALLMARK_APOPTOSIS	Genes mediating programmed cell death (apoptosis) by activation of caspases.
+IL6	HALLMARK_APOPTOSIS	Genes mediating programmed cell death (apoptosis) by activation of caspases.
+ILF3	HALLMARK_E2F_TARGETS	Genes encoding cell cycle related targets of E2F transcription factors.
+ILF3	HALLMARK_G2M_CHECKPOINT	Genes involved in the G2/M checkpoint, as in progression through the cell division cycle.
+IMPDH2	HALLMARK_DNA_REPAIR	Genes involved in DNA repair.
+INCENP	HALLMARK_G2M_CHECKPOINT	Genes involved in the G2/M checkpoint, as in progression through the cell division cycle.
+ING3	HALLMARK_E2F_TARGETS	Genes encoding cell cycle related targets of E2F transcription factors.
+INHBB	HALLMARK_P53_PATHWAY	Genes involved in p53 pathways and networks.
+IP6K2	HALLMARK_P53_PATHWAY	Genes involved in p53 pathways and networks.
+IPO7	HALLMARK_E2F_TARGETS	Genes encoding cell cycle related targets of E2F transcription factors.
+IRAG2	HALLMARK_P53_PATHWAY	Genes involved in p53 pathways and networks.
+IRAK1	HALLMARK_P53_PATHWAY	Genes involved in p53 pathways and networks.
+IRF1	HALLMARK_APOPTOSIS	Genes mediating programmed cell death (apoptosis) by activation of caspases.
+ISCU	HALLMARK_P53_PATHWAY	Genes involved in p53 pathways and networks.
+ISG20	HALLMARK_APOPTOSIS	Genes mediating programmed cell death (apoptosis) by activation of caspases.
+ITGB4	HALLMARK_P53_PATHWAY	Genes involved in p53 pathways and networks.
+ITPA	HALLMARK_DNA_REPAIR	Genes involved in DNA repair.
+JAG2	HALLMARK_P53_PATHWAY	Genes involved in p53 pathways and networks.
+JPT1	HALLMARK_E2F_TARGETS	Genes encoding cell cycle related targets of E2F transcription factors.
+JPT1	HALLMARK_G2M_CHECKPOINT	Genes involved in the G2/M checkpoint, as in progression through the cell division cycle.
+JUN	HALLMARK_APOPTOSIS	Genes mediating programmed cell death (apoptosis) by activation of caspases.
+JUN	HALLMARK_P53_PATHWAY	Genes involved in p53 pathways and networks.
+KATNA1	HALLMARK_G2M_CHECKPOINT	Genes involved in the G2/M checkpoint, as in progression through the cell division cycle.
+KIF11	HALLMARK_G2M_CHECKPOINT	Genes involved in the G2/M checkpoint, as in progression through the cell division cycle.
+KIF13B	HALLMARK_P53_PATHWAY	Genes involved in p53 pathways and networks.
+KIF15	HALLMARK_G2M_CHECKPOINT	Genes involved in the G2/M checkpoint, as in progression through the cell division cycle.
+KIF18B	HALLMARK_E2F_TARGETS	Genes encoding cell cycle related targets of E2F transcription factors.
+KIF20B	HALLMARK_G2M_CHECKPOINT	Genes involved in the G2/M checkpoint, as in progression through the cell division cycle.
+KIF22	HALLMARK_E2F_TARGETS	Genes encoding cell cycle related targets of E2F transcription factors.
+KIF22	HALLMARK_G2M_CHECKPOINT	Genes involved in the G2/M checkpoint, as in progression through the cell division cycle.
+KIF23	HALLMARK_G2M_CHECKPOINT	Genes involved in the G2/M checkpoint, as in progression through the cell division cycle.
+KIF2C	HALLMARK_E2F_TARGETS	Genes encoding cell cycle related targets of E2F transcription factors.
+KIF2C	HALLMARK_G2M_CHECKPOINT	Genes involved in the G2/M checkpoint, as in progression through the cell division cycle.
+KIF4A	HALLMARK_E2F_TARGETS	Genes encoding cell cycle related targets of E2F transcription factors.
+KIF4A	HALLMARK_G2M_CHECKPOINT	Genes involved in the G2/M checkpoint, as in progression through the cell division cycle.
+KIF5B	HALLMARK_G2M_CHECKPOINT	Genes involved in the G2/M checkpoint, as in progression through the cell division cycle.
+KLF4	HALLMARK_P53_PATHWAY	Genes involved in p53 pathways and networks.
+KLK8	HALLMARK_P53_PATHWAY	Genes involved in p53 pathways and networks.
+KMT5A	HALLMARK_G2M_CHECKPOINT	Genes involved in the G2/M checkpoint, as in progression through the cell division cycle.
+KNL1	HALLMARK_G2M_CHECKPOINT	Genes involved in the G2/M checkpoint, as in progression through the cell division cycle.
+KPNA2	HALLMARK_E2F_TARGETS	Genes encoding cell cycle related targets of E2F transcription factors.
+KPNA2	HALLMARK_G2M_CHECKPOINT	Genes involved in the G2/M checkpoint, as in progression through the cell division cycle.
+KPNB1	HALLMARK_G2M_CHECKPOINT	Genes involved in the G2/M checkpoint, as in progression through the cell division cycle.
+KRT17	HALLMARK_P53_PATHWAY	Genes involved in p53 pathways and networks.
+KRT18	HALLMARK_APOPTOSIS	Genes mediating programmed cell death (apoptosis) by activation of caspases.
+LBR	HALLMARK_E2F_TARGETS	Genes encoding cell cycle related targets of E2F transcription factors.
+LBR	HALLMARK_G2M_CHECKPOINT	Genes involved in the G2/M checkpoint, as in progression through the cell division cycle.
+LDHB	HALLMARK_P53_PATHWAY	Genes involved in p53 pathways and networks.
+LEF1	HALLMARK_APOPTOSIS	Genes mediating programmed cell death (apoptosis) by activation of caspases.
+LGALS3	HALLMARK_APOPTOSIS	Genes mediating programmed cell death (apoptosis) by activation of caspases.
+LIF	HALLMARK_P53_PATHWAY	Genes involved in p53 pathways and networks.
+LIG1	HALLMARK_DNA_REPAIR	Genes involved in DNA repair.
+LIG1	HALLMARK_E2F_TARGETS	Genes encoding cell cycle related targets of E2F transcription factors.
+LIG3	HALLMARK_G2M_CHECKPOINT	Genes involved in the G2/M checkpoint, as in progression through the cell division cycle.
+LMNA	HALLMARK_APOPTOSIS	Genes mediating programmed cell death (apoptosis) by activation of caspases.
+LMNB1	HALLMARK_E2F_TARGETS	Genes encoding cell cycle related targets of E2F transcription factors.
+LMNB1	HALLMARK_G2M_CHECKPOINT	Genes involved in the G2/M checkpoint, as in progression through the cell division cycle.
+LUC7L3	HALLMARK_E2F_TARGETS	Genes encoding cell cycle related targets of E2F transcription factors.
+LUM	HALLMARK_APOPTOSIS	Genes mediating programmed cell death (apoptosis) by activation of caspases.
+LYAR	HALLMARK_E2F_TARGETS	Genes encoding cell cycle related targets of E2F transcription factors.
+MAD2L1	HALLMARK_E2F_TARGETS	Genes encoding cell cycle related targets of E2F transcription factors.
+MAD2L1	HALLMARK_G2M_CHECKPOINT	Genes involved in the G2/M checkpoint, as in progression through the cell division cycle.
+MADD	HALLMARK_APOPTOSIS	Genes mediating programmed cell death (apoptosis) by activation of caspases.
+MAP3K20	HALLMARK_G2M_CHECKPOINT	Genes involved in the G2/M checkpoint, as in progression through the cell division cycle.
+MAPK14	HALLMARK_G2M_CHECKPOINT	Genes involved in the G2/M checkpoint, as in progression through the cell division cycle.
+MAPKAPK3	HALLMARK_P53_PATHWAY	Genes involved in p53 pathways and networks.
+MARCKS	HALLMARK_G2M_CHECKPOINT	Genes involved in the G2/M checkpoint, as in progression through the cell division cycle.
+MCL1	HALLMARK_APOPTOSIS	Genes mediating programmed cell death (apoptosis) by activation of caspases.
+MCM2	HALLMARK_E2F_TARGETS	Genes encoding cell cycle related targets of E2F transcription factors.
+MCM2	HALLMARK_G2M_CHECKPOINT	Genes involved in the G2/M checkpoint, as in progression through the cell division cycle.
+MCM3	HALLMARK_E2F_TARGETS	Genes encoding cell cycle related targets of E2F transcription factors.
+MCM3	HALLMARK_G2M_CHECKPOINT	Genes involved in the G2/M checkpoint, as in progression through the cell division cycle.
+MCM4	HALLMARK_E2F_TARGETS	Genes encoding cell cycle related targets of E2F transcription factors.
+MCM5	HALLMARK_E2F_TARGETS	Genes encoding cell cycle related targets of E2F transcription factors.
+MCM5	HALLMARK_G2M_CHECKPOINT	Genes involved in the G2/M checkpoint, as in progression through the cell division cycle.
+MCM6	HALLMARK_E2F_TARGETS	Genes encoding cell cycle related targets of E2F transcription factors.
+MCM6	HALLMARK_G2M_CHECKPOINT	Genes involved in the G2/M checkpoint, as in progression through the cell division cycle.
+MCM7	HALLMARK_E2F_TARGETS	Genes encoding cell cycle related targets of E2F transcription factors.
+MDM2	HALLMARK_P53_PATHWAY	Genes involved in p53 pathways and networks.
+MEIS1	HALLMARK_G2M_CHECKPOINT	Genes involved in the G2/M checkpoint, as in progression through the cell division cycle.
+MEIS2	HALLMARK_G2M_CHECKPOINT	Genes involved in the G2/M checkpoint, as in progression through the cell division cycle.
+MELK	HALLMARK_E2F_TARGETS	Genes encoding cell cycle related targets of E2F transcription factors.
+MGMT	HALLMARK_APOPTOSIS	Genes mediating programmed cell death (apoptosis) by activation of caspases.
+MKI67	HALLMARK_E2F_TARGETS	Genes encoding cell cycle related targets of E2F transcription factors.
+MKI67	HALLMARK_G2M_CHECKPOINT	Genes involved in the G2/M checkpoint, as in progression through the cell division cycle.
+MKNK2	HALLMARK_P53_PATHWAY	Genes involved in p53 pathways and networks.
+MLH1	HALLMARK_E2F_TARGETS	Genes encoding cell cycle related targets of E2F transcription factors.
+MMP2	HALLMARK_APOPTOSIS	Genes mediating programmed cell death (apoptosis) by activation of caspases.
+MMS22L	HALLMARK_E2F_TARGETS	Genes encoding cell cycle related targets of E2F transcription factors.
+MNAT1	HALLMARK_G2M_CHECKPOINT	Genes involved in the G2/M checkpoint, as in progression through the cell division cycle.
+MPC2	HALLMARK_DNA_REPAIR	Genes involved in DNA repair.
+MPG	HALLMARK_DNA_REPAIR	Genes involved in DNA repair.
+MRE11	HALLMARK_E2F_TARGETS	Genes encoding cell cycle related targets of E2F transcription factors.
+MRPL40	HALLMARK_DNA_REPAIR	Genes involved in DNA repair.
+MSH2	HALLMARK_E2F_TARGETS	Genes encoding cell cycle related targets of E2F transcription factors.
+MT2A	HALLMARK_G2M_CHECKPOINT	Genes involved in the G2/M checkpoint, as in progression through the cell division cycle.
+MTF2	HALLMARK_G2M_CHECKPOINT	Genes involved in the G2/M checkpoint, as in progression through the cell division cycle.
+MTHFD2	HALLMARK_E2F_TARGETS	Genes encoding cell cycle related targets of E2F transcription factors.
+MXD1	HALLMARK_P53_PATHWAY	Genes involved in p53 pathways and networks.
+MXD3	HALLMARK_E2F_TARGETS	Genes encoding cell cycle related targets of E2F transcription factors.
+MXD4	HALLMARK_P53_PATHWAY	Genes involved in p53 pathways and networks.
+MYBL2	HALLMARK_E2F_TARGETS	Genes encoding cell cycle related targets of E2F transcription factors.
+MYBL2	HALLMARK_G2M_CHECKPOINT	Genes involved in the G2/M checkpoint, as in progression through the cell division cycle.
+MYC	HALLMARK_E2F_TARGETS	Genes encoding cell cycle related targets of E2F transcription factors.
+MYC	HALLMARK_G2M_CHECKPOINT	Genes involved in the G2/M checkpoint, as in progression through the cell division cycle.
+NAA38	HALLMARK_E2F_TARGETS	Genes encoding cell cycle related targets of E2F transcription factors.
+NAP1L1	HALLMARK_E2F_TARGETS	Genes encoding cell cycle related targets of E2F transcription factors.
+NASP	HALLMARK_E2F_TARGETS	Genes encoding cell cycle related targets of E2F transcription factors.
+NASP	HALLMARK_G2M_CHECKPOINT	Genes involved in the G2/M checkpoint, as in progression through the cell division cycle.
+NBN	HALLMARK_E2F_TARGETS	Genes encoding cell cycle related targets of E2F transcription factors.
+NCAPD2	HALLMARK_E2F_TARGETS	Genes encoding cell cycle related targets of E2F transcription factors.
+NCBP2	HALLMARK_DNA_REPAIR	Genes involved in DNA repair.
+NCL	HALLMARK_G2M_CHECKPOINT	Genes involved in the G2/M checkpoint, as in progression through the cell division cycle.
+NDC80	HALLMARK_G2M_CHECKPOINT	Genes involved in the G2/M checkpoint, as in progression through the cell division cycle.
+NDRG1	HALLMARK_P53_PATHWAY	Genes involved in p53 pathways and networks.
+NEDD9	HALLMARK_APOPTOSIS	Genes mediating programmed cell death (apoptosis) by activation of caspases.
+NEFH	HALLMARK_APOPTOSIS	Genes mediating programmed cell death (apoptosis) by activation of caspases.
+NEK2	HALLMARK_G2M_CHECKPOINT	Genes involved in the G2/M checkpoint, as in progression through the cell division cycle.
+NELFB	HALLMARK_DNA_REPAIR	Genes involved in DNA repair.
+NELFCD	HALLMARK_DNA_REPAIR	Genes involved in DNA repair.
+NELFE	HALLMARK_DNA_REPAIR	Genes involved in DNA repair.
+NFX1	HALLMARK_DNA_REPAIR	Genes involved in DNA repair.
+NHLH2	HALLMARK_P53_PATHWAY	Genes involved in p53 pathways and networks.
+NINJ1	HALLMARK_P53_PATHWAY	Genes involved in p53 pathways and networks.
+NME1	HALLMARK_DNA_REPAIR	Genes involved in DNA repair.
+NME1	HALLMARK_E2F_TARGETS	Genes encoding cell cycle related targets of E2F transcription factors.
+NME3	HALLMARK_DNA_REPAIR	Genes involved in DNA repair.
+NME4	HALLMARK_DNA_REPAIR	Genes involved in DNA repair.
+NOL8	HALLMARK_P53_PATHWAY	Genes involved in p53 pathways and networks.
+NOLC1	HALLMARK_E2F_TARGETS	Genes encoding cell cycle related targets of E2F transcription factors.
+NOLC1	HALLMARK_G2M_CHECKPOINT	Genes involved in the G2/M checkpoint, as in progression through the cell division cycle.
+NOP56	HALLMARK_E2F_TARGETS	Genes encoding cell cycle related targets of E2F transcription factors.
+NOTCH1	HALLMARK_P53_PATHWAY	Genes involved in p53 pathways and networks.
+NOTCH2	HALLMARK_G2M_CHECKPOINT	Genes involved in the G2/M checkpoint, as in progression through the cell division cycle.
+NPR2	HALLMARK_DNA_REPAIR	Genes involved in DNA repair.
+NSD2	HALLMARK_G2M_CHECKPOINT	Genes involved in the G2/M checkpoint, as in progression through the cell division cycle.
+NT5C	HALLMARK_DNA_REPAIR	Genes involved in DNA repair.
+NT5C3A	HALLMARK_DNA_REPAIR	Genes involved in DNA repair.
+NUDT15	HALLMARK_P53_PATHWAY	Genes involved in p53 pathways and networks.
+NUDT21	HALLMARK_DNA_REPAIR	Genes involved in DNA repair.
+NUDT21	HALLMARK_E2F_TARGETS	Genes encoding cell cycle related targets of E2F transcription factors.
+NUDT9	HALLMARK_DNA_REPAIR	Genes involved in DNA repair.
+NUMA1	HALLMARK_G2M_CHECKPOINT	Genes involved in the G2/M checkpoint, as in progression through the cell division cycle.
+NUP107	HALLMARK_E2F_TARGETS	Genes encoding cell cycle related targets of E2F transcription factors.
+NUP153	HALLMARK_E2F_TARGETS	Genes encoding cell cycle related targets of E2F transcription factors.
+NUP205	HALLMARK_E2F_TARGETS	Genes encoding cell cycle related targets of E2F transcription factors.
+NUP50	HALLMARK_G2M_CHECKPOINT	Genes involved in the G2/M checkpoint, as in progression through the cell division cycle.
+NUP98	HALLMARK_G2M_CHECKPOINT	Genes involved in the G2/M checkpoint, as in progression through the cell division cycle.
+NUPR1	HALLMARK_P53_PATHWAY	Genes involved in p53 pathways and networks.
+NUSAP1	HALLMARK_G2M_CHECKPOINT	Genes involved in the G2/M checkpoint, as in progression through the cell division cycle.
+ODC1	HALLMARK_G2M_CHECKPOINT	Genes involved in the G2/M checkpoint, as in progression through the cell division cycle.
+ODF2	HALLMARK_G2M_CHECKPOINT	Genes involved in the G2/M checkpoint, as in progression through the cell division cycle.
+ORC2	HALLMARK_E2F_TARGETS	Genes encoding cell cycle related targets of E2F transcription factors.
+ORC5	HALLMARK_G2M_CHECKPOINT	Genes involved in the G2/M checkpoint, as in progression through the cell division cycle.
+ORC6	HALLMARK_E2F_TARGETS	Genes encoding cell cycle related targets of E2F transcription factors.
+ORC6	HALLMARK_G2M_CHECKPOINT	Genes involved in the G2/M checkpoint, as in progression through the cell division cycle.
+OSGIN1	HALLMARK_P53_PATHWAY	Genes involved in p53 pathways and networks.
+PA2G4	HALLMARK_E2F_TARGETS	Genes encoding cell cycle related targets of E2F transcription factors.
+PAFAH1B1	HALLMARK_G2M_CHECKPOINT	Genes involved in the G2/M checkpoint, as in progression through the cell division cycle.
+PAICS	HALLMARK_E2F_TARGETS	Genes encoding cell cycle related targets of E2F transcription factors.
+PAK1	HALLMARK_APOPTOSIS	Genes mediating programmed cell death (apoptosis) by activation of caspases.
+PAN2	HALLMARK_E2F_TARGETS	Genes encoding cell cycle related targets of E2F transcription factors.
+PBK	HALLMARK_G2M_CHECKPOINT	Genes involved in the G2/M checkpoint, as in progression through the cell division cycle.
+PCNA	HALLMARK_DNA_REPAIR	Genes involved in DNA repair.
+PCNA	HALLMARK_E2F_TARGETS	Genes encoding cell cycle related targets of E2F transcription factors.
+PCNA	HALLMARK_P53_PATHWAY	Genes involved in p53 pathways and networks.
+PDCD4	HALLMARK_APOPTOSIS	Genes mediating programmed cell death (apoptosis) by activation of caspases.
+PDE4B	HALLMARK_DNA_REPAIR	Genes involved in DNA repair.
+PDE6G	HALLMARK_DNA_REPAIR	Genes involved in DNA repair.
+PDGFA	HALLMARK_P53_PATHWAY	Genes involved in p53 pathways and networks.
+PDGFRB	HALLMARK_APOPTOSIS	Genes mediating programmed cell death (apoptosis) by activation of caspases.
+PDS5B	HALLMARK_E2F_TARGETS	Genes encoding cell cycle related targets of E2F transcription factors.
+PDS5B	HALLMARK_G2M_CHECKPOINT	Genes involved in the G2/M checkpoint, as in progression through the cell division cycle.
+PEA15	HALLMARK_APOPTOSIS	Genes mediating programmed cell death (apoptosis) by activation of caspases.
+PERP	HALLMARK_P53_PATHWAY	Genes involved in p53 pathways and networks.
+PHF5A	HALLMARK_E2F_TARGETS	Genes encoding cell cycle related targets of E2F transcription factors.
+PHLDA3	HALLMARK_P53_PATHWAY	Genes involved in p53 pathways and networks.
+PIDD1	HALLMARK_P53_PATHWAY	Genes involved in p53 pathways and networks.
+PITPNC1	HALLMARK_P53_PATHWAY	Genes involved in p53 pathways and networks.
+PLAT	HALLMARK_APOPTOSIS	Genes mediating programmed cell death (apoptosis) by activation of caspases.
+PLCB2	HALLMARK_APOPTOSIS	Genes mediating programmed cell death (apoptosis) by activation of caspases.
+PLK1	HALLMARK_E2F_TARGETS	Genes encoding cell cycle related targets of E2F transcription factors.
+PLK1	HALLMARK_G2M_CHECKPOINT	Genes involved in the G2/M checkpoint, as in progression through the cell division cycle.
+PLK2	HALLMARK_P53_PATHWAY	Genes involved in p53 pathways and networks.
+PLK3	HALLMARK_P53_PATHWAY	Genes involved in p53 pathways and networks.
+PLK4	HALLMARK_E2F_TARGETS	Genes encoding cell cycle related targets of E2F transcription factors.
+PLK4	HALLMARK_G2M_CHECKPOINT	Genes involved in the G2/M checkpoint, as in progression through the cell division cycle.
+PLPPR4	HALLMARK_APOPTOSIS	Genes mediating programmed cell death (apoptosis) by activation of caspases.
+PLXNB2	HALLMARK_P53_PATHWAY	Genes involved in p53 pathways and networks.
+PMAIP1	HALLMARK_APOPTOSIS	Genes mediating programmed cell death (apoptosis) by activation of caspases.
+PML	HALLMARK_G2M_CHECKPOINT	Genes involved in the G2/M checkpoint, as in progression through the cell division cycle.
+PMM1	HALLMARK_P53_PATHWAY	Genes involved in p53 pathways and networks.
+PMS2	HALLMARK_E2F_TARGETS	Genes encoding cell cycle related targets of E2F transcription factors.
+PNN	HALLMARK_E2F_TARGETS	Genes encoding cell cycle related targets of E2F transcription factors.
+PNP	HALLMARK_DNA_REPAIR	Genes involved in DNA repair.
+POLA1	HALLMARK_DNA_REPAIR	Genes involved in DNA repair.
+POLA2	HALLMARK_DNA_REPAIR	Genes involved in DNA repair.
+POLA2	HALLMARK_E2F_TARGETS	Genes encoding cell cycle related targets of E2F transcription factors.
+POLA2	HALLMARK_G2M_CHECKPOINT	Genes involved in the G2/M checkpoint, as in progression through the cell division cycle.
+POLB	HALLMARK_DNA_REPAIR	Genes involved in DNA repair.
+POLD1	HALLMARK_DNA_REPAIR	Genes involved in DNA repair.
+POLD1	HALLMARK_E2F_TARGETS	Genes encoding cell cycle related targets of E2F transcription factors.
+POLD2	HALLMARK_E2F_TARGETS	Genes encoding cell cycle related targets of E2F transcription factors.
+POLD3	HALLMARK_DNA_REPAIR	Genes involved in DNA repair.
+POLD3	HALLMARK_E2F_TARGETS	Genes encoding cell cycle related targets of E2F transcription factors.
+POLD4	HALLMARK_DNA_REPAIR	Genes involved in DNA repair.
+POLE	HALLMARK_E2F_TARGETS	Genes encoding cell cycle related targets of E2F transcription factors.
+POLE	HALLMARK_G2M_CHECKPOINT	Genes involved in the G2/M checkpoint, as in progression through the cell division cycle.
+POLE4	HALLMARK_DNA_REPAIR	Genes involved in DNA repair.
+POLE4	HALLMARK_E2F_TARGETS	Genes encoding cell cycle related targets of E2F transcription factors.
+POLH	HALLMARK_DNA_REPAIR	Genes involved in DNA repair.
+POLH	HALLMARK_P53_PATHWAY	Genes involved in p53 pathways and networks.
+POLL	HALLMARK_DNA_REPAIR	Genes involved in DNA repair.
+POLQ	HALLMARK_G2M_CHECKPOINT	Genes involved in the G2/M checkpoint, as in progression through the cell division cycle.
+POLR1C	HALLMARK_DNA_REPAIR	Genes involved in DNA repair.
+POLR1D	HALLMARK_DNA_REPAIR	Genes involved in DNA repair.
+POLR1H	HALLMARK_DNA_REPAIR	Genes involved in DNA repair.
+POLR2A	HALLMARK_DNA_REPAIR	Genes involved in DNA repair.
+POLR2C	HALLMARK_DNA_REPAIR	Genes involved in DNA repair.
+POLR2D	HALLMARK_DNA_REPAIR	Genes involved in DNA repair.
+POLR2E	HALLMARK_DNA_REPAIR	Genes involved in DNA repair.
+POLR2F	HALLMARK_DNA_REPAIR	Genes involved in DNA repair.
+POLR2G	HALLMARK_DNA_REPAIR	Genes involved in DNA repair.
+POLR2H	HALLMARK_DNA_REPAIR	Genes involved in DNA repair.
+POLR2I	HALLMARK_DNA_REPAIR	Genes involved in DNA repair.
+POLR2J	HALLMARK_DNA_REPAIR	Genes involved in DNA repair.
+POLR2K	HALLMARK_DNA_REPAIR	Genes involved in DNA repair.
+POLR3C	HALLMARK_DNA_REPAIR	Genes involved in DNA repair.
+POLR3GL	HALLMARK_DNA_REPAIR	Genes involved in DNA repair.
+POM121	HALLMARK_DNA_REPAIR	Genes involved in DNA repair.
+POM121	HALLMARK_P53_PATHWAY	Genes involved in p53 pathways and networks.
+POP7	HALLMARK_E2F_TARGETS	Genes encoding cell cycle related targets of E2F transcription factors.
+PPM1D	HALLMARK_E2F_TARGETS	Genes encoding cell cycle related targets of E2F transcription factors.
+PPM1D	HALLMARK_P53_PATHWAY	Genes involved in p53 pathways and networks.
+PPP1R15A	HALLMARK_P53_PATHWAY	Genes involved in p53 pathways and networks.
+PPP1R8	HALLMARK_E2F_TARGETS	Genes encoding cell cycle related targets of E2F transcription factors.
+PPP2R5B	HALLMARK_APOPTOSIS	Genes mediating programmed cell death (apoptosis) by activation of caspases.
+PPP3R1	HALLMARK_APOPTOSIS	Genes mediating programmed cell death (apoptosis) by activation of caspases.
+PPT1	HALLMARK_APOPTOSIS	Genes mediating programmed cell death (apoptosis) by activation of caspases.
+PRC1	HALLMARK_G2M_CHECKPOINT	Genes involved in the G2/M checkpoint, as in progression through the cell division cycle.
+PRDX4	HALLMARK_E2F_TARGETS	Genes encoding cell cycle related targets of E2F transcription factors.
+PRF1	HALLMARK_APOPTOSIS	Genes mediating programmed cell death (apoptosis) by activation of caspases.
+PRIM1	HALLMARK_DNA_REPAIR	Genes involved in DNA repair.
+PRIM2	HALLMARK_E2F_TARGETS	Genes encoding cell cycle related targets of E2F transcription factors.
+PRIM2	HALLMARK_G2M_CHECKPOINT	Genes involved in the G2/M checkpoint, as in progression through the cell division cycle.
+PRKAB1	HALLMARK_P53_PATHWAY	Genes involved in p53 pathways and networks.
+PRKDC	HALLMARK_E2F_TARGETS	Genes encoding cell cycle related targets of E2F transcription factors.
+PRMT2	HALLMARK_P53_PATHWAY	Genes involved in p53 pathways and networks.
+PRMT5	HALLMARK_G2M_CHECKPOINT	Genes involved in the G2/M checkpoint, as in progression through the cell division cycle.
+PROCR	HALLMARK_P53_PATHWAY	Genes involved in p53 pathways and networks.
+PRPF4B	HALLMARK_G2M_CHECKPOINT	Genes involved in the G2/M checkpoint, as in progression through the cell division cycle.
+PRPS1	HALLMARK_E2F_TARGETS	Genes encoding cell cycle related targets of E2F transcription factors.
+PSEN1	HALLMARK_APOPTOSIS	Genes mediating programmed cell death (apoptosis) by activation of caspases.
+PSEN2	HALLMARK_APOPTOSIS	Genes mediating programmed cell death (apoptosis) by activation of caspases.
+PSIP1	HALLMARK_E2F_TARGETS	Genes encoding cell cycle related targets of E2F transcription factors.
+PSMC3IP	HALLMARK_E2F_TARGETS	Genes encoding cell cycle related targets of E2F transcription factors.
+PTK2	HALLMARK_APOPTOSIS	Genes mediating programmed cell death (apoptosis) by activation of caspases.
+PTPN14	HALLMARK_P53_PATHWAY	Genes involved in p53 pathways and networks.
+PTPRE	HALLMARK_P53_PATHWAY	Genes involved in p53 pathways and networks.
+PTTG1	HALLMARK_E2F_TARGETS	Genes encoding cell cycle related targets of E2F transcription factors.
+PTTG1	HALLMARK_G2M_CHECKPOINT	Genes involved in the G2/M checkpoint, as in progression through the cell division cycle.
+PTTG3P	HALLMARK_G2M_CHECKPOINT	Genes involved in the G2/M checkpoint, as in progression through the cell division cycle.
+PURA	HALLMARK_G2M_CHECKPOINT	Genes involved in the G2/M checkpoint, as in progression through the cell division cycle.
+PVT1	HALLMARK_P53_PATHWAY	Genes involved in p53 pathways and networks.
+RAB40C	HALLMARK_P53_PATHWAY	Genes involved in p53 pathways and networks.
+RACGAP1	HALLMARK_E2F_TARGETS	Genes encoding cell cycle related targets of E2F transcription factors.
+RACGAP1	HALLMARK_G2M_CHECKPOINT	Genes involved in the G2/M checkpoint, as in progression through the cell division cycle.
+RACK1	HALLMARK_P53_PATHWAY	Genes involved in p53 pathways and networks.
+RAD1	HALLMARK_E2F_TARGETS	Genes encoding cell cycle related targets of E2F transcription factors.
+RAD21	HALLMARK_E2F_TARGETS	Genes encoding cell cycle related targets of E2F transcription factors.
+RAD21	HALLMARK_G2M_CHECKPOINT	Genes involved in the G2/M checkpoint, as in progression through the cell division cycle.
+RAD23B	HALLMARK_G2M_CHECKPOINT	Genes involved in the G2/M checkpoint, as in progression through the cell division cycle.
+RAD50	HALLMARK_E2F_TARGETS	Genes encoding cell cycle related targets of E2F transcription factors.
+RAD51	HALLMARK_DNA_REPAIR	Genes involved in DNA repair.
+RAD51AP1	HALLMARK_E2F_TARGETS	Genes encoding cell cycle related targets of E2F transcription factors.
+RAD51C	HALLMARK_E2F_TARGETS	Genes encoding cell cycle related targets of E2F transcription factors.
+RAD51C	HALLMARK_P53_PATHWAY	Genes involved in p53 pathways and networks.
+RAD52	HALLMARK_DNA_REPAIR	Genes involved in DNA repair.
+RAD54L	HALLMARK_G2M_CHECKPOINT	Genes involved in the G2/M checkpoint, as in progression through the cell division cycle.
+RAD9A	HALLMARK_P53_PATHWAY	Genes involved in p53 pathways and networks.
+RAE1	HALLMARK_DNA_REPAIR	Genes involved in DNA repair.
+RALA	HALLMARK_DNA_REPAIR	Genes involved in DNA repair.
+RALGDS	HALLMARK_P53_PATHWAY	Genes involved in p53 pathways and networks.
+RAN	HALLMARK_E2F_TARGETS	Genes encoding cell cycle related targets of E2F transcription factors.
+RANBP1	HALLMARK_E2F_TARGETS	Genes encoding cell cycle related targets of E2F transcription factors.
+RAP2B	HALLMARK_P53_PATHWAY	Genes involved in p53 pathways and networks.
+RARA	HALLMARK_APOPTOSIS	Genes mediating programmed cell death (apoptosis) by activation of caspases.
+RASAL2	HALLMARK_G2M_CHECKPOINT	Genes involved in the G2/M checkpoint, as in progression through the cell division cycle.
+RB1	HALLMARK_P53_PATHWAY	Genes involved in p53 pathways and networks.
+RBBP7	HALLMARK_E2F_TARGETS	Genes encoding cell cycle related targets of E2F transcription factors.
+RBL1	HALLMARK_G2M_CHECKPOINT	Genes involved in the G2/M checkpoint, as in progression through the cell division cycle.
+RBM14	HALLMARK_G2M_CHECKPOINT	Genes involved in the G2/M checkpoint, as in progression through the cell division cycle.
+RBX1	HALLMARK_DNA_REPAIR	Genes involved in DNA repair.
+RCHY1	HALLMARK_P53_PATHWAY	Genes involved in p53 pathways and networks.
+RELA	HALLMARK_APOPTOSIS	Genes mediating programmed cell death (apoptosis) by activation of caspases.
+RETSAT	HALLMARK_APOPTOSIS	Genes mediating programmed cell death (apoptosis) by activation of caspases.
+RETSAT	HALLMARK_P53_PATHWAY	Genes involved in p53 pathways and networks.
+REV3L	HALLMARK_DNA_REPAIR	Genes involved in DNA repair.
+RFC1	HALLMARK_E2F_TARGETS	Genes encoding cell cycle related targets of E2F transcription factors.
+RFC2	HALLMARK_DNA_REPAIR	Genes involved in DNA repair.
+RFC2	HALLMARK_E2F_TARGETS	Genes encoding cell cycle related targets of E2F transcription factors.
+RFC3	HALLMARK_DNA_REPAIR	Genes involved in DNA repair.
+RFC3	HALLMARK_E2F_TARGETS	Genes encoding cell cycle related targets of E2F transcription factors.
+RFC4	HALLMARK_DNA_REPAIR	Genes involved in DNA repair.
+RFC5	HALLMARK_DNA_REPAIR	Genes involved in DNA repair.
+RGS16	HALLMARK_P53_PATHWAY	Genes involved in p53 pathways and networks.
+RHBDF2	HALLMARK_P53_PATHWAY	Genes involved in p53 pathways and networks.
+RHOB	HALLMARK_APOPTOSIS	Genes mediating programmed cell death (apoptosis) by activation of caspases.
+RHOT2	HALLMARK_APOPTOSIS	Genes mediating programmed cell death (apoptosis) by activation of caspases.
+RNASEH2A	HALLMARK_E2F_TARGETS	Genes encoding cell cycle related targets of E2F transcription factors.
+RNASEL	HALLMARK_APOPTOSIS	Genes mediating programmed cell death (apoptosis) by activation of caspases.
+RNF19B	HALLMARK_P53_PATHWAY	Genes involved in p53 pathways and networks.
+RNMT	HALLMARK_DNA_REPAIR	Genes involved in DNA repair.
+ROCK1	HALLMARK_APOPTOSIS	Genes mediating programmed cell death (apoptosis) by activation of caspases.
+RPA1	HALLMARK_E2F_TARGETS	Genes encoding cell cycle related targets of E2F transcription factors.
+RPA2	HALLMARK_DNA_REPAIR	Genes involved in DNA repair.
+RPA2	HALLMARK_E2F_TARGETS	Genes encoding cell cycle related targets of E2F transcription factors.
+RPA2	HALLMARK_G2M_CHECKPOINT	Genes involved in the G2/M checkpoint, as in progression through the cell division cycle.
+RPA3	HALLMARK_DNA_REPAIR	Genes involved in DNA repair.
+RPA3	HALLMARK_E2F_TARGETS	Genes encoding cell cycle related targets of E2F transcription factors.
+RPL18	HALLMARK_P53_PATHWAY	Genes involved in p53 pathways and networks.
+RPL36	HALLMARK_P53_PATHWAY	Genes involved in p53 pathways and networks.
+RPS12	HALLMARK_P53_PATHWAY	Genes involved in p53 pathways and networks.
+RPS27L	HALLMARK_P53_PATHWAY	Genes involved in p53 pathways and networks.
+RPS6KA5	HALLMARK_G2M_CHECKPOINT	Genes involved in the G2/M checkpoint, as in progression through the cell division cycle.
+RRAD	HALLMARK_P53_PATHWAY	Genes involved in p53 pathways and networks.
+RRM2	HALLMARK_E2F_TARGETS	Genes encoding cell cycle related targets of E2F transcription factors.
+RRM2B	HALLMARK_DNA_REPAIR	Genes involved in DNA repair.
+RRP8	HALLMARK_P53_PATHWAY	Genes involved in p53 pathways and networks.
+RXRA	HALLMARK_P53_PATHWAY	Genes involved in p53 pathways and networks.
+S100A10	HALLMARK_P53_PATHWAY	Genes involved in p53 pathways and networks.
+S100A4	HALLMARK_P53_PATHWAY	Genes involved in p53 pathways and networks.
+SAC3D1	HALLMARK_DNA_REPAIR	Genes involved in DNA repair.
+SAP30	HALLMARK_G2M_CHECKPOINT	Genes involved in the G2/M checkpoint, as in progression through the cell division cycle.
+SAT1	HALLMARK_APOPTOSIS	Genes mediating programmed cell death (apoptosis) by activation of caspases.
+SAT1	HALLMARK_P53_PATHWAY	Genes involved in p53 pathways and networks.
+SATB1	HALLMARK_APOPTOSIS	Genes mediating programmed cell death (apoptosis) by activation of caspases.
+SC5D	HALLMARK_APOPTOSIS	Genes mediating programmed cell death (apoptosis) by activation of caspases.
+SDC1	HALLMARK_P53_PATHWAY	Genes involved in p53 pathways and networks.
+SDCBP	HALLMARK_DNA_REPAIR	Genes involved in DNA repair.
+SEC61A1	HALLMARK_DNA_REPAIR	Genes involved in DNA repair.
+SEC61A1	HALLMARK_P53_PATHWAY	Genes involved in p53 pathways and networks.
+SERPINB5	HALLMARK_P53_PATHWAY	Genes involved in p53 pathways and networks.
+SERTAD3	HALLMARK_P53_PATHWAY	Genes involved in p53 pathways and networks.
+SESN1	HALLMARK_P53_PATHWAY	Genes involved in p53 pathways and networks.
+SF3A3	HALLMARK_DNA_REPAIR	Genes involved in DNA repair.
+SFN	HALLMARK_P53_PATHWAY	Genes involved in p53 pathways and networks.
+SFPQ	HALLMARK_G2M_CHECKPOINT	Genes involved in the G2/M checkpoint, as in progression through the cell division cycle.
+SHMT1	HALLMARK_E2F_TARGETS	Genes encoding cell cycle related targets of E2F transcription factors.
+SLBP	HALLMARK_E2F_TARGETS	Genes encoding cell cycle related targets of E2F transcription factors.
+SLC12A2	HALLMARK_G2M_CHECKPOINT	Genes involved in the G2/M checkpoint, as in progression through the cell division cycle.
+SLC19A2	HALLMARK_P53_PATHWAY	Genes involved in p53 pathways and networks.
+SLC20A1	HALLMARK_APOPTOSIS	Genes mediating programmed cell death (apoptosis) by activation of caspases.
+SLC35D1	HALLMARK_P53_PATHWAY	Genes involved in p53 pathways and networks.
+SLC38A1	HALLMARK_G2M_CHECKPOINT	Genes involved in the G2/M checkpoint, as in progression through the cell division cycle.
+SLC3A2	HALLMARK_P53_PATHWAY	Genes involved in p53 pathways and networks.
+SLC7A1	HALLMARK_G2M_CHECKPOINT	Genes involved in the G2/M checkpoint, as in progression through the cell division cycle.
+SLC7A11	HALLMARK_P53_PATHWAY	Genes involved in p53 pathways and networks.
+SLC7A5	HALLMARK_G2M_CHECKPOINT	Genes involved in the G2/M checkpoint, as in progression through the cell division cycle.
+SMAD3	HALLMARK_G2M_CHECKPOINT	Genes involved in the G2/M checkpoint, as in progression through the cell division cycle.
+SMAD5	HALLMARK_DNA_REPAIR	Genes involved in DNA repair.
+SMAD7	HALLMARK_APOPTOSIS	Genes mediating programmed cell death (apoptosis) by activation of caspases.
+SMARCC1	HALLMARK_G2M_CHECKPOINT	Genes involved in the G2/M checkpoint, as in progression through the cell division cycle.
+SMC1A	HALLMARK_E2F_TARGETS	Genes encoding cell cycle related targets of E2F transcription factors.
+SMC1A	HALLMARK_G2M_CHECKPOINT	Genes involved in the G2/M checkpoint, as in progression through the cell division cycle.
+SMC2	HALLMARK_G2M_CHECKPOINT	Genes involved in the G2/M checkpoint, as in progression through the cell division cycle.
+SMC3	HALLMARK_E2F_TARGETS	Genes encoding cell cycle related targets of E2F transcription factors.
+SMC4	HALLMARK_E2F_TARGETS	Genes encoding cell cycle related targets of E2F transcription factors.
+SMC4	HALLMARK_G2M_CHECKPOINT	Genes involved in the G2/M checkpoint, as in progression through the cell division cycle.
+SMC6	HALLMARK_E2F_TARGETS	Genes encoding cell cycle related targets of E2F transcription factors.
+SNAPC4	HALLMARK_DNA_REPAIR	Genes involved in DNA repair.
+SNAPC5	HALLMARK_DNA_REPAIR	Genes involved in DNA repair.
+SNRPB	HALLMARK_E2F_TARGETS	Genes encoding cell cycle related targets of E2F transcription factors.
+SNRPD1	HALLMARK_G2M_CHECKPOINT	Genes involved in the G2/M checkpoint, as in progression through the cell division cycle.
+SOCS1	HALLMARK_P53_PATHWAY	Genes involved in p53 pathways and networks.
+SOD1	HALLMARK_APOPTOSIS	Genes mediating programmed cell death (apoptosis) by activation of caspases.
+SOD2	HALLMARK_APOPTOSIS	Genes mediating programmed cell death (apoptosis) by activation of caspases.
+SP1	HALLMARK_P53_PATHWAY	Genes involved in p53 pathways and networks.
+SPAG5	HALLMARK_E2F_TARGETS	Genes encoding cell cycle related targets of E2F transcription factors.
+SPC24	HALLMARK_E2F_TARGETS	Genes encoding cell cycle related targets of E2F transcription factors.
+SPC25	HALLMARK_E2F_TARGETS	Genes encoding cell cycle related targets of E2F transcription factors.
+SPHK1	HALLMARK_P53_PATHWAY	Genes involved in p53 pathways and networks.
+SPTAN1	HALLMARK_APOPTOSIS	Genes mediating programmed cell death (apoptosis) by activation of caspases.
+SQLE	HALLMARK_G2M_CHECKPOINT	Genes involved in the G2/M checkpoint, as in progression through the cell division cycle.
+SQSTM1	HALLMARK_APOPTOSIS	Genes mediating programmed cell death (apoptosis) by activation of caspases.
+SRSF1	HALLMARK_E2F_TARGETS	Genes encoding cell cycle related targets of E2F transcription factors.
+SRSF1	HALLMARK_G2M_CHECKPOINT	Genes involved in the G2/M checkpoint, as in progression through the cell division cycle.
+SRSF10	HALLMARK_G2M_CHECKPOINT	Genes involved in the G2/M checkpoint, as in progression through the cell division cycle.
+SRSF2	HALLMARK_E2F_TARGETS	Genes encoding cell cycle related targets of E2F transcription factors.
+SRSF2	HALLMARK_G2M_CHECKPOINT	Genes involved in the G2/M checkpoint, as in progression through the cell division cycle.
+SRSF6	HALLMARK_DNA_REPAIR	Genes involved in DNA repair.
+SS18	HALLMARK_G2M_CHECKPOINT	Genes involved in the G2/M checkpoint, as in progression through the cell division cycle.
+SSRP1	HALLMARK_DNA_REPAIR	Genes involved in DNA repair.
+SSRP1	HALLMARK_E2F_TARGETS	Genes encoding cell cycle related targets of E2F transcription factors.
+ST14	HALLMARK_P53_PATHWAY	Genes involved in p53 pathways and networks.
+STAG1	HALLMARK_E2F_TARGETS	Genes encoding cell cycle related targets of E2F transcription factors.
+STAG1	HALLMARK_G2M_CHECKPOINT	Genes involved in the G2/M checkpoint, as in progression through the cell division cycle.
+STEAP3	HALLMARK_P53_PATHWAY	Genes involved in p53 pathways and networks.
+STIL	HALLMARK_G2M_CHECKPOINT	Genes involved in the G2/M checkpoint, as in progression through the cell division cycle.
+STMN1	HALLMARK_E2F_TARGETS	Genes encoding cell cycle related targets of E2F transcription factors.
+STMN1	HALLMARK_G2M_CHECKPOINT	Genes involved in the G2/M checkpoint, as in progression through the cell division cycle.
+STOM	HALLMARK_P53_PATHWAY	Genes involved in p53 pathways and networks.
+STX3	HALLMARK_DNA_REPAIR	Genes involved in DNA repair.
+SUPT4H1	HALLMARK_DNA_REPAIR	Genes involved in DNA repair.
+SUPT5H	HALLMARK_DNA_REPAIR	Genes involved in DNA repair.
+SURF1	HALLMARK_DNA_REPAIR	Genes involved in DNA repair.
+SUV39H1	HALLMARK_E2F_TARGETS	Genes encoding cell cycle related targets of E2F transcription factors.
+SUV39H1	HALLMARK_G2M_CHECKPOINT	Genes involved in the G2/M checkpoint, as in progression through the cell division cycle.
+SYNCRIP	HALLMARK_E2F_TARGETS	Genes encoding cell cycle related targets of E2F transcription factors.
+SYNCRIP	HALLMARK_G2M_CHECKPOINT	Genes involved in the G2/M checkpoint, as in progression through the cell division cycle.
+TACC3	HALLMARK_E2F_TARGETS	Genes encoding cell cycle related targets of E2F transcription factors.
+TACC3	HALLMARK_G2M_CHECKPOINT	Genes involved in the G2/M checkpoint, as in progression through the cell division cycle.
+TAF10	HALLMARK_DNA_REPAIR	Genes involved in DNA repair.
+TAF12	HALLMARK_DNA_REPAIR	Genes involved in DNA repair.
+TAF13	HALLMARK_DNA_REPAIR	Genes involved in DNA repair.
+TAF1C	HALLMARK_DNA_REPAIR	Genes involved in DNA repair.
+TAF6	HALLMARK_DNA_REPAIR	Genes involved in DNA repair.
+TAF9	HALLMARK_DNA_REPAIR	Genes involved in DNA repair.
+TAP1	HALLMARK_APOPTOSIS	Genes mediating programmed cell death (apoptosis) by activation of caspases.
+TAP1	HALLMARK_P53_PATHWAY	Genes involved in p53 pathways and networks.
+TARBP2	HALLMARK_DNA_REPAIR	Genes involved in DNA repair.
+TAX1BP3	HALLMARK_P53_PATHWAY	Genes involved in p53 pathways and networks.
+TBRG4	HALLMARK_E2F_TARGETS	Genes encoding cell cycle related targets of E2F transcription factors.
+TCF19	HALLMARK_E2F_TARGETS	Genes encoding cell cycle related targets of E2F transcription factors.
+TCHH	HALLMARK_P53_PATHWAY	Genes involved in p53 pathways and networks.
+TCN2	HALLMARK_P53_PATHWAY	Genes involved in p53 pathways and networks.
+TENT4A	HALLMARK_G2M_CHECKPOINT	Genes involved in the G2/M checkpoint, as in progression through the cell division cycle.
+TFDP1	HALLMARK_G2M_CHECKPOINT	Genes involved in the G2/M checkpoint, as in progression through the cell division cycle.
+TFRC	HALLMARK_E2F_TARGETS	Genes encoding cell cycle related targets of E2F transcription factors.
+TGFA	HALLMARK_P53_PATHWAY	Genes involved in p53 pathways and networks.
+TGFB1	HALLMARK_G2M_CHECKPOINT	Genes involved in the G2/M checkpoint, as in progression through the cell division cycle.
+TGFB1	HALLMARK_P53_PATHWAY	Genes involved in p53 pathways and networks.
+TGFB2	HALLMARK_APOPTOSIS	Genes mediating programmed cell death (apoptosis) by activation of caspases.
+TGFBR3	HALLMARK_APOPTOSIS	Genes mediating programmed cell death (apoptosis) by activation of caspases.
+TIMELESS	HALLMARK_E2F_TARGETS	Genes encoding cell cycle related targets of E2F transcription factors.
+TIMP1	HALLMARK_APOPTOSIS	Genes mediating programmed cell death (apoptosis) by activation of caspases.
+TIMP2	HALLMARK_APOPTOSIS	Genes mediating programmed cell death (apoptosis) by activation of caspases.
+TIMP3	HALLMARK_APOPTOSIS	Genes mediating programmed cell death (apoptosis) by activation of caspases.
+TIPIN	HALLMARK_E2F_TARGETS	Genes encoding cell cycle related targets of E2F transcription factors.
+TK1	HALLMARK_E2F_TARGETS	Genes encoding cell cycle related targets of E2F transcription factors.
+TK2	HALLMARK_DNA_REPAIR	Genes involved in DNA repair.
+TLE3	HALLMARK_G2M_CHECKPOINT	Genes involved in the G2/M checkpoint, as in progression through the cell division cycle.
+TM4SF1	HALLMARK_P53_PATHWAY	Genes involved in p53 pathways and networks.
+TM7SF3	HALLMARK_P53_PATHWAY	Genes involved in p53 pathways and networks.
+TMED2	HALLMARK_DNA_REPAIR	Genes involved in DNA repair.
+TMPO	HALLMARK_E2F_TARGETS	Genes encoding cell cycle related targets of E2F transcription factors.
+TMPO	HALLMARK_G2M_CHECKPOINT	Genes involved in the G2/M checkpoint, as in progression through the cell division cycle.
+TNF	HALLMARK_APOPTOSIS	Genes mediating programmed cell death (apoptosis) by activation of caspases.
+TNFRSF12A	HALLMARK_APOPTOSIS	Genes mediating programmed cell death (apoptosis) by activation of caspases.
+TNFSF10	HALLMARK_APOPTOSIS	Genes mediating programmed cell death (apoptosis) by activation of caspases.
+TNFSF9	HALLMARK_P53_PATHWAY	Genes involved in p53 pathways and networks.
+TNNI1	HALLMARK_P53_PATHWAY	Genes involved in p53 pathways and networks.
+TNPO2	HALLMARK_G2M_CHECKPOINT	Genes involved in the G2/M checkpoint, as in progression through the cell division cycle.
+TOB1	HALLMARK_P53_PATHWAY	Genes involved in p53 pathways and networks.
+TOP1	HALLMARK_G2M_CHECKPOINT	Genes involved in the G2/M checkpoint, as in progression through the cell division cycle.
+TOP2A	HALLMARK_APOPTOSIS	Genes mediating programmed cell death (apoptosis) by activation of caspases.
+TOP2A	HALLMARK_E2F_TARGETS	Genes encoding cell cycle related targets of E2F transcription factors.
+TOP2A	HALLMARK_G2M_CHECKPOINT	Genes involved in the G2/M checkpoint, as in progression through the cell division cycle.
+TP53	HALLMARK_DNA_REPAIR	Genes involved in DNA repair.
+TP53	HALLMARK_E2F_TARGETS	Genes encoding cell cycle related targets of E2F transcription factors.
+TP53	HALLMARK_P53_PATHWAY	Genes involved in p53 pathways and networks.
+TP63	HALLMARK_P53_PATHWAY	Genes involved in p53 pathways and networks.
+TPD52L1	HALLMARK_P53_PATHWAY	Genes involved in p53 pathways and networks.
+TPRKB	HALLMARK_P53_PATHWAY	Genes involved in p53 pathways and networks.
+TPX2	HALLMARK_G2M_CHECKPOINT	Genes involved in the G2/M checkpoint, as in progression through the cell division cycle.
+TRA2B	HALLMARK_E2F_TARGETS	Genes encoding cell cycle related targets of E2F transcription factors.
+TRA2B	HALLMARK_G2M_CHECKPOINT	Genes involved in the G2/M checkpoint, as in progression through the cell division cycle.
+TRAF4	HALLMARK_P53_PATHWAY	Genes involved in p53 pathways and networks.
+TRAFD1	HALLMARK_P53_PATHWAY	Genes involved in p53 pathways and networks.
+TRAIP	HALLMARK_G2M_CHECKPOINT	Genes involved in the G2/M checkpoint, as in progression through the cell division cycle.
+TRIAP1	HALLMARK_P53_PATHWAY	Genes involved in p53 pathways and networks.
+TRIB3	HALLMARK_P53_PATHWAY	Genes involved in p53 pathways and networks.
+TRIP13	HALLMARK_E2F_TARGETS	Genes encoding cell cycle related targets of E2F transcription factors.
+TROAP	HALLMARK_G2M_CHECKPOINT	Genes involved in the G2/M checkpoint, as in progression through the cell division cycle.
+TSC22D1	HALLMARK_P53_PATHWAY	Genes involved in p53 pathways and networks.
+TSG101	HALLMARK_DNA_REPAIR	Genes involved in DNA repair.
+TSPO	HALLMARK_APOPTOSIS	Genes mediating programmed cell death (apoptosis) by activation of caspases.
+TSPYL2	HALLMARK_P53_PATHWAY	Genes involved in p53 pathways and networks.
+TTK	HALLMARK_G2M_CHECKPOINT	Genes involved in the G2/M checkpoint, as in progression through the cell division cycle.
+TUBB	HALLMARK_E2F_TARGETS	Genes encoding cell cycle related targets of E2F transcription factors.
+TUBG1	HALLMARK_E2F_TARGETS	Genes encoding cell cycle related targets of E2F transcription factors.
+TXNIP	HALLMARK_APOPTOSIS	Genes mediating programmed cell death (apoptosis) by activation of caspases.
+TXNIP	HALLMARK_P53_PATHWAY	Genes involved in p53 pathways and networks.
+TYMS	HALLMARK_DNA_REPAIR	Genes involved in DNA repair.
+UBE2C	HALLMARK_G2M_CHECKPOINT	Genes involved in the G2/M checkpoint, as in progression through the cell division cycle.
+UBE2S	HALLMARK_E2F_TARGETS	Genes encoding cell cycle related targets of E2F transcription factors.
+UBE2S	HALLMARK_G2M_CHECKPOINT	Genes involved in the G2/M checkpoint, as in progression through the cell division cycle.
+UBE2T	HALLMARK_E2F_TARGETS	Genes encoding cell cycle related targets of E2F transcription factors.
+UBR7	HALLMARK_E2F_TARGETS	Genes encoding cell cycle related targets of E2F transcription factors.
+UCK2	HALLMARK_G2M_CHECKPOINT	Genes involved in the G2/M checkpoint, as in progression through the cell division cycle.
+UMPS	HALLMARK_DNA_REPAIR	Genes involved in DNA repair.
+UNG	HALLMARK_E2F_TARGETS	Genes encoding cell cycle related targets of E2F transcription factors.
+UPF1	HALLMARK_G2M_CHECKPOINT	Genes involved in the G2/M checkpoint, as in progression through the cell division cycle.
+UPF3B	HALLMARK_DNA_REPAIR	Genes involved in DNA repair.
+UPP1	HALLMARK_P53_PATHWAY	Genes involved in p53 pathways and networks.
+USP1	HALLMARK_E2F_TARGETS	Genes encoding cell cycle related targets of E2F transcription factors.
+USP11	HALLMARK_DNA_REPAIR	Genes involved in DNA repair.
+VAMP8	HALLMARK_P53_PATHWAY	Genes involved in p53 pathways and networks.
+VDAC2	HALLMARK_APOPTOSIS	Genes mediating programmed cell death (apoptosis) by activation of caspases.
+VDR	HALLMARK_P53_PATHWAY	Genes involved in p53 pathways and networks.
+VPS28	HALLMARK_DNA_REPAIR	Genes involved in DNA repair.
+VPS37B	HALLMARK_DNA_REPAIR	Genes involved in DNA repair.
+VPS37D	HALLMARK_DNA_REPAIR	Genes involved in DNA repair.
+VWA5A	HALLMARK_P53_PATHWAY	Genes involved in p53 pathways and networks.
+WDR90	HALLMARK_E2F_TARGETS	Genes encoding cell cycle related targets of E2F transcription factors.
+WEE1	HALLMARK_APOPTOSIS	Genes mediating programmed cell death (apoptosis) by activation of caspases.
+WEE1	HALLMARK_E2F_TARGETS	Genes encoding cell cycle related targets of E2F transcription factors.
+WRAP73	HALLMARK_P53_PATHWAY	Genes involved in p53 pathways and networks.
+WRN	HALLMARK_G2M_CHECKPOINT	Genes involved in the G2/M checkpoint, as in progression through the cell division cycle.
+WWP1	HALLMARK_P53_PATHWAY	Genes involved in p53 pathways and networks.
+XIAP	HALLMARK_APOPTOSIS	Genes mediating programmed cell death (apoptosis) by activation of caspases.
+XPC	HALLMARK_DNA_REPAIR	Genes involved in DNA repair.
+XPC	HALLMARK_P53_PATHWAY	Genes involved in p53 pathways and networks.
+XPO1	HALLMARK_E2F_TARGETS	Genes encoding cell cycle related targets of E2F transcription factors.
+XPO1	HALLMARK_G2M_CHECKPOINT	Genes involved in the G2/M checkpoint, as in progression through the cell division cycle.
+XRCC6	HALLMARK_E2F_TARGETS	Genes encoding cell cycle related targets of E2F transcription factors.
+YTHDC1	HALLMARK_G2M_CHECKPOINT	Genes involved in the G2/M checkpoint, as in progression through the cell division cycle.
+ZBTB16	HALLMARK_P53_PATHWAY	Genes involved in p53 pathways and networks.
+ZFP36L1	HALLMARK_P53_PATHWAY	Genes involved in p53 pathways and networks.
+ZMAT3	HALLMARK_P53_PATHWAY	Genes involved in p53 pathways and networks.
+ZNF365	HALLMARK_P53_PATHWAY	Genes involved in p53 pathways and networks.
+ZNF707	HALLMARK_DNA_REPAIR	Genes involved in DNA repair.
+ZW10	HALLMARK_E2F_TARGETS	Genes encoding cell cycle related targets of E2F transcription factors.
+ZWINT	HALLMARK_DNA_REPAIR	Genes involved in DNA repair.
