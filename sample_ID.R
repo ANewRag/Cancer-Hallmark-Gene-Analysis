@@ -1,6 +1,6 @@
 # 1. Read the sample sheet mapping file
 # Adjust the file name/path as necessary
-sample_sheet <- read.delim("gdc_sample_sheet.2025-03-27.tsv", 
+sample_sheet <- read.delim("gdc_sample_sheet.2025-04-06.tsv", 
                            header = TRUE, sep = "\t", stringsAsFactors = FALSE)
 
 # In this sample sheet:
@@ -73,7 +73,7 @@ normalized_counts <- as.data.frame(normalized_counts)
 normalized_counts <- cbind(gene_name = rownames(normalized_counts), normalized_counts)
 
 # Write the normalized counts table to a file
-write.table(normalized_counts, file = "normalized_gene_counts_with_sample_ids.tsv", 
+write.table(normalized_counts, file = "mRNA_scaled_expression.txt", 
             sep = "\t", quote = FALSE, row.names = FALSE)
 
 # Optionally, display the first few rows of the normalized counts

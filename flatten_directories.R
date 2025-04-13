@@ -40,7 +40,7 @@ flatten_directories <- function(source_folder, target_folder) {
 }
 
 # Example Usage
-source_folder <- "/Users/junninghu/Downloads/gdc_download_20250328_001817.786714_2"  # Replace with the path to the source folder containing subfolders
-target_folder <- "/Users/junninghu/Downloads/gdc_download_20250328_001817.786714_2"  # Replace with the path to the folder where you want all the files
+source_folder <- "/Users/junninghu/Downloads/medium_sample/gdc_download_20250406_193510.464019"  # Replace with the path to the source folder containing subfolders
+target_folder <- "/Users/junninghu/Downloads/medium_sample"  # Replace with the path to the folder where you want all the files
 
 flatten_directories(source_folder, target_folder)
