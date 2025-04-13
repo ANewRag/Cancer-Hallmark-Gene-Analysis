@@ -185,4 +185,4 @@ write.table(surv_analysis, "PanCancer_hallmarkgenes_OS_survival_results.tsv",
 #############################
 # MULTIPLE TESTING CORRECTION FOR HALLMARK GENES
 #############################
-# This part is deleted due to its confusing input file type and lack of explanation
+#Need to maybe add a task for bonferroni correction

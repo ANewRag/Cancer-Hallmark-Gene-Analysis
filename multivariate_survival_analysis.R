@@ -1,157 +1,154 @@
-# Required PACKAGES
+# ==== LOAD REQUIRED PACKAGES ====
 library(survival)
 library(ggplot2)
 
-# ==== SURVIVAL FUNCTION ====
+# ==== SURVIVAL FUNCTIONS ====
 bestcutoff <- function(datavector, clintable) {
-  breaks <- quantile(datavector, probs = seq(0.25, 0.75, by= 0.01))
+  breaks <- quantile(datavector, probs = seq(0.25, 0.75, by = 0.01))
   cutoff.table <- t(sapply(breaks, function(z) cutoff(datavector = datavector, cutpoint = z, clintable = clintable)))
   colnames(cutoff.table) <- c("cutoff", "pvalue")
-  #cutoff.table
   cutoff.table[order(cutoff.table[, 2]), "cutoff"][1]
 }
 
 cutoff <- function(datavector, cutpoint, clintable) {
-  term <- cut(x = datavector, breaks = c(min(datavector), cutpoint, max(datavector)), labels = F, include.lowest = T)
+  term <- cut(x = datavector, 
+              breaks = c(min(datavector), cutpoint, max(datavector)), 
+              labels = FALSE, 
+              include.lowest = TRUE)
   cox <- summary(coxph(Surv(surv_time, surv_events) ~ term, data = clintable))
   c(cutpoint, cox$sctest[3])
 }
 
-# List files
-exp_files = list.files(path = getwd(), pattern = "mRNA_scaled_expression.txt", full.names = T, recursive = T)
-clin_file = list.files(path = getwd(), pattern = "PanCancer_clinical_table_all190708.txt", full.names = T, recursive = T)
-cancer_genes_file = list.files(path = getwd(), pattern = "Univariate_sign_39genes.txt", full.names = T, recursive = T)
+# ==== FILES AND DATA READING ====
+exp_files <- list.files(path = getwd(), pattern = "mRNA_scaled_expression.txt", full.names = TRUE, recursive = TRUE)
+clin_file <- list.files(path = getwd(), pattern = "PanCancer_clinical_table_all190708.txt", full.names = TRUE, recursive = TRUE)
+cancer_genes_file <- list.files(path = getwd(), pattern = "Candidate_genes", full.names = TRUE, recursive = TRUE)
 
-# Reading cancer hallmark gene list (707 unique gene)
-cancer_genes = read.table(cancer_genes_file, sep = "\t",  header = T, check.names = F)
+# Read candidate cancer genes (707 unique genes assumed)
+cancer_genes <- read.table(cancer_genes_file, sep = "\t", header = TRUE, check.names = FALSE)
 
-# Reading clinical table
-clinical = read.table(clin_file, sep = "\t", header = T, row.names = 1, check.names = F)
+# Read clinical table
+clinical <- read.table(clin_file, sep = "\t", header = TRUE, row.names = 1, check.names = FALSE)
 
-multivariate_surv_analysis = as.data.frame(matrix(nrow = 39, ncol = 13))
+# Select the tumor type (assuming only one is used; here the first file is selected)
+a <- 1
+expression <- read.table(exp_files[a], header = TRUE, sep = "\t", check.names = FALSE, row.names = 1)
 
-a = 1 # Selecting the tumors 1-26
+# Extract tumor type from file name (modify index as needed)
+tumor_type <- strsplit(exp_files[a], split = "[/,_]")[[1]][9]
 
-# Reading expression table
-expression = read.table(exp_files[a], header = T, sep = "\t", check.names = F, row.names = 1)
+# Intersect samples between expression and clinical data and subset accordingly
+cases <- intersect(colnames(expression), rownames(clinical))
+expression <- expression[, cases]
+clintable <- clinical[cases, ]
 
-tumor_type = strsplit(exp_files[a], split = "[/,_]")
-tumor_type = sapply(tumor_type, "[[", 9)
+# Define survival time and events
+surv_time <- as.numeric(clintable[["days_difference"]])
+surv_events <- as.numeric(clintable[["demographic.vital_status"]])
 
-cases = intersect(colnames(expression), rownames(clinical))
-expression = expression[, cases]
-clintable = clinical[cases, ]
+# ==== PREALLOCATE THE RESULTS MATRIX ====
+# We plan to output the following for the gene and 3 covariates (Gender, Race, Age):
+# For each variable: p-value, HR, CI lower bound, CI upper bound.
+# Adding one column for Gene name gives 1 + (4 variables * 4 values) = 17 columns.
+num_genes <- nrow(cancer_genes)
+multivariate_surv_analysis <- as.data.frame(matrix(NA, nrow = num_genes, ncol = 17))
 
-surv_time = as.numeric(clintable[[3]]) # OS = column 3; RFS = column 5
-surv_events = as.numeric(clintable[[4]]) # OS = column 4; RFS = column 6
+colnames(multivariate_surv_analysis) <- c("Gene",
+                                          paste(tumor_type, "Gene_P", sep = "_"),
+                                          paste(tumor_type, "Gene_HR", sep = "_"),
+                                          paste(tumor_type, "Gene_CI_low", sep = "_"),
+                                          paste(tumor_type, "Gene_CI_high", sep = "_"),
+                                          paste(tumor_type, "Gender_P", sep = "_"),
+                                          paste(tumor_type, "Gender_HR", sep = "_"),
+                                          paste(tumor_type, "Gender_CI_low", sep = "_"),
+                                          paste(tumor_type, "Gender_CI_high", sep = "_"),
+                                          paste(tumor_type, "Race_P", sep = "_"),
+                                          paste(tumor_type, "Race_HR", sep = "_"),
+                                          paste(tumor_type, "Race_CI_low", sep = "_"),
+                                          paste(tumor_type, "Race_CI_high", sep = "_"),
+                                          paste(tumor_type, "Age_P", sep = "_"),
+                                          paste(tumor_type, "Age_HR", sep = "_"),
+                                          paste(tumor_type, "Age_CI_low", sep = "_"),
+                                          paste(tumor_type, "Age_CI_high", sep = "_")
+)
 
-for (b in 1:nrow(cancer_genes)){
+# ==== MAIN LOOP OVER CANDIDATE GENES ====
+for (b in 1:nrow(cancer_genes)) {
   tryCatch(
     expr = {
-      # Selecting genes
-      selected_exp = as.numeric(expression[as.character(cancer_genes[b, 1]), ])
+      # Selecting gene expression
+      gene_name <- as.character(cancer_genes[b, 1])
+      selected_exp <- as.numeric(expression[gene_name, ])
       
-      # Selecting the best cutoff to dividing patients into high and low expression groups:
-      cutoff.point = as.numeric(bestcutoff(datavector = selected_exp, clintable = clintable))
+      # Determine the best cutoff for dividing patients into high and low expression groups
+      cutoff.point <- as.numeric(bestcutoff(datavector = selected_exp, clintable = clintable))
       
-      # Dividing patients into low and high expression groups:
-      exp_category = c()
+      # Divide patients into low/high groups
+      exp_category <- ifelse(selected_exp >= cutoff.point, "High", "Low")
+      exp_category <- factor(exp_category, levels = c("Low", "High"))
       
-      for (c in 1:length(selected_exp)){
-        
-        if (selected_exp[[c]] >= cutoff.point[1]){
-          
-          exp_category[[c]] = "High"
-          
-        } else {
-          
-          exp_category[[c]] = "Low"
-          
-        }
-        
+      # Create a unified analysis data frame with survival data, exp_category, and covariates.
+      analysis_data <- data.frame(
+        surv_time = surv_time,
+        surv_events = surv_events,
+        exp_category = exp_category,
+        demographic.gender = clintable[["demographic.gender"]],
+        demographic.race = clintable[["demographic.race"]],
+        demographic.age_at_index = clintable[["demographic.age_at_index"]]
+      )
+      
+      # Fit the multivariate Cox regression model using the merged data frame
+      multivariate_cox_result <- summary(
+        coxph(Surv(surv_time, surv_events) ~ exp_category + demographic.gender +
+                demographic.race + demographic.age_at_index, data = analysis_data)
+      )
+      
+      # Extract and save results for the gene effect (exp_categoryHigh)
+      if ("exp_categoryHigh" %in% rownames(multivariate_cox_result$coefficients)) {
+        multivariate_surv_analysis[b, 2] <- round(multivariate_cox_result$coefficients["exp_categoryHigh", "Pr(>|z|)"], 4)
+        multivariate_surv_analysis[b, 3] <- round(multivariate_cox_result$conf.int["exp_categoryHigh", "exp(coef)"], 2)
+        multivariate_surv_analysis[b, 4] <- round(multivariate_cox_result$conf.int["exp_categoryHigh", "lower .95"], 2)
+        multivariate_surv_analysis[b, 5] <- round(multivariate_cox_result$conf.int["exp_categoryHigh", "upper .95"], 2)
       }
       
-      exp_category = factor(exp_category, levels = c("Low", "High"))
+      # Extract and save results for gender
+      if ("demographic.gender" %in% rownames(multivariate_cox_result$coefficients)) {
+        multivariate_surv_analysis[b, 6] <- round(multivariate_cox_result$coefficients["demographic.gender", "Pr(>|z|)"], 4)
+        multivariate_surv_analysis[b, 7] <- round(multivariate_cox_result$conf.int["demographic.gender", "exp(coef)"], 2)
+        multivariate_surv_analysis[b, 8] <- round(multivariate_cox_result$conf.int["demographic.gender", "lower .95"], 2)
+        multivariate_surv_analysis[b, 9] <- round(multivariate_cox_result$conf.int["demographic.gender", "upper .95"], 2)
+      }
       
-      # Cox-regression
-      multivariate_cox_result = summary(coxph(Surv(surv_time, surv_events) ~ exp_category
-                                              + clintable$`Gender(0=female;1=male)`
-                                              + clintable$`Race(1=white;2=asian;3=black/african american)`
-                                              + clintable$Age
-                                              + clintable$Stage
-                                              + clintable$`Grade(0(LowGrade)=G1+G2;1(HighGrade)=G3+G4)`
-      ))
+      # Extract and save results for race
+      if ("demographic.race" %in% rownames(multivariate_cox_result$coefficients)) {
+        multivariate_surv_analysis[b, 10] <- round(multivariate_cox_result$coefficients["demographic.race", "Pr(>|z|)"], 4)
+        multivariate_surv_analysis[b, 11] <- round(multivariate_cox_result$conf.int["demographic.race", "exp(coef)"], 2)
+        multivariate_surv_analysis[b, 12] <- round(multivariate_cox_result$conf.int["demographic.race", "lower .95"], 2)
+        multivariate_surv_analysis[b, 13] <- round(multivariate_cox_result$conf.int["demographic.race", "upper .95"], 2)
+      }
       
-      # Result table of multivariate analysis
-      # Gene P values
-      multivariate_surv_analysis[b, 2] = as.numeric(round(multivariate_cox_result$coefficients[, 5]["exp_categoryHigh"], digits = 4))
-      n_patients = length(selected_exp)
-      colnames(multivariate_surv_analysis)[2] = paste(tumor_type, paste("N=", n_patients, sep = ""), "Gene-Pvalue", sep = "_")
+      # Extract and save results for age
+      if ("demographic.age_at_index" %in% rownames(multivariate_cox_result$coefficients)) {
+        multivariate_surv_analysis[b, 14] <- round(multivariate_cox_result$coefficients["demographic.age_at_index", "Pr(>|z|)"], 4)
+        multivariate_surv_analysis[b, 15] <- round(multivariate_cox_result$conf.int["demographic.age_at_index", "exp(coef)"], 2)
+        multivariate_surv_analysis[b, 16] <- round(multivariate_cox_result$conf.int["demographic.age_at_index", "lower .95"], 2)
+        multivariate_surv_analysis[b, 17] <- round(multivariate_cox_result$conf.int["demographic.age_at_index", "upper .95"], 2)
+      }
       
-      # Gene HR values
-      multivariate_surv_analysis[b, 3] = as.numeric(round(multivariate_cox_result$conf.int["exp_categoryHigh", 1], digits = 2))
-      colnames(multivariate_surv_analysis)[3] = paste(tumor_type, "Gene-HR", sep = "_")
-      
-      # Gender P values
-      multivariate_surv_analysis[b, 4] = as.numeric(multivariate_cox_result$coefficients[, 5]["clintable$`Gender(0=female;1=male)`"])
-      n_patients = length(na.omit(clintable$`Gender(0=female;1=male)`))
-      colnames(multivariate_surv_analysis)[4] = paste(tumor_type, paste("N=", n_patients, sep = ""), "Gender-Pvalue", sep = "_")
-      
-      # Gender HR values
-      multivariate_surv_analysis[b, 5] = as.numeric(round(multivariate_cox_result$conf.int["clintable$`Gender(0=female;1=male)`", 1], digits = 2))
-      colnames(multivariate_surv_analysis)[5] = paste(tumor_type, "Gender-HR", sep = "_")
-      
-      # Race P values
-      multivariate_surv_analysis[b, 6] = as.numeric(multivariate_cox_result$coefficients[, 5]["clintable$`Race(1=white;2=asian;3=black/african american)`"])
-      n_patients = length(na.omit(clintable$`Race(1=white;2=asian;3=black/african american)`))
-      colnames(multivariate_surv_analysis)[6] = paste(tumor_type, paste("N=", n_patients, sep = ""), "Race-Pvalue", sep = "_")
-      
-      # Race HR values
-      multivariate_surv_analysis[b, 7] = as.numeric(round(multivariate_cox_result$conf.int["clintable$`Race(1=white;2=asian;3=black/african american)`", 1], digits = 2))
-      colnames(multivariate_surv_analysis)[7] = paste(tumor_type, "Race-HR", sep = "_")
-      
-      # Age P values
-      multivariate_surv_analysis[b, 8] = as.numeric(multivariate_cox_result$coefficients[, 5]["clintable$Age"])
-      n_patients = length(na.omit(clintable$Age))
-      colnames(multivariate_surv_analysis)[8] = paste(tumor_type, paste("N=", n_patients, sep = ""), "Age-Pvalue", sep = "_")
-      
-      # Age HR values
-      multivariate_surv_analysis[b, 9] = as.numeric(round(multivariate_cox_result$conf.int["clintable$Age", 1], digits = 2))
-      colnames(multivariate_surv_analysis)[9] = paste(tumor_type, "Age-HR", sep = "_")
-      
-      # Stage P values
-      multivariate_surv_analysis[b, 10] = as.numeric(multivariate_cox_result$coefficients[, 5]["clintable$Stage"])
-      n_patients = length(na.omit(clintable$Stage))
-      colnames(multivariate_surv_analysis)[10] = paste(tumor_type, paste("N=", n_patients, sep = ""), "Stage-Pvalue", sep = "_")
-      
-      # Stage HR values
-      multivariate_surv_analysis[b, 11] = as.numeric(round(multivariate_cox_result$conf.int["clintable$Stage", 1], digits = 2))
-      colnames(multivariate_surv_analysis)[11] = paste(tumor_type, "Stage-HR", sep = "_")
-      
-      # Grade P values
-      multivariate_surv_analysis[b, 12] = as.numeric(multivariate_cox_result$coefficients[, 5]["clintable$`Grade(0(LowGrade)=G1+G2;1(HighGrade)=G3+G4)`"])
-      n_patients = length(na.omit(clintable$`Grade(0(LowGrade)=G1+G2;1(HighGrade)=G3+G4)`))
-      colnames(multivariate_surv_analysis)[12] = paste(tumor_type, paste("N=", n_patients, sep = ""), "Grade-Pvalue", sep = "_")
-      
-      # Grade HR values
-      multivariate_surv_analysis[b, 13] = as.numeric(round(multivariate_cox_result$conf.int["clintable$`Grade(0(LowGrade)=G1+G2;1(HighGrade)=G3+G4)`", 1], digits = 2))
-      colnames(multivariate_surv_analysis)[13] = paste(tumor_type, "Grade-HR", sep = "_")
+      # Save the gene name
+      multivariate_surv_analysis[b, 1] <- gene_name
       
     },
-    
-    error = function(e){
-      e = toString(unlist(e))
-      error_line = data.frame(b, e, Sys.time(), stringsAsFactors = F)
-      # write.table(error_line, paste("/home/adam/Documents/TCGA_PanCancer/Error_Warnings/", paste(tumor_type, "error_pancancer.txt", sep = "_"), sep = ""), append = T, sep = "\t", quote = F, row.names = F, col.names = F)
+    error = function(e) {
+      e_text <- toString(unlist(e))
+      error_line <- data.frame(GeneIndex = b, Error = e_text, Time = Sys.time(), stringsAsFactors = FALSE)
+      # Optionally, write error_line to a log file
     }
-    
-    # warning = function(w){
-    # w = toString(unlist(w))
-    # warning_line = data.frame(b, w, Sys.time(), stringsAsFactors = F)
-    # # write.table(warning_line, paste("/home/adam/Documents/TCGA_PanCancer/Error_Warnings/", paste(tumor_type, "warning_pancancer.txt", sep = "_"), sep = ""), append = T, sep = "\t", quote = F, row.names = F, col.names = F)
-    # }
   )
 }
 
-multivariate_surv_analysis[[1]] = as.character(cancer_genes[[1]])
-write.table(multivariate_surv_analysis, paste(paste("PanCancer_hallmarkgenes_OS_multivariate_survival", tumor_type, sep = "_"), ".txt", sep = ""), sep = "\t", quote = F, na = "", col.names = NA)
+# Write out the results table to file
+output_filename <- paste0("PanCancer_hallmarkgenes_OS_multivariate_survival_", tumor_type, ".txt")
+write.table(multivariate_surv_analysis, output_filename, sep = "\t", quote = FALSE, na = "", col.names = NA)
+output_filename <- paste0("PanCancer_hallmarkgenes_OS_multivariate_survival_", tumor_type, ".tsv")
+write.table(multivariate_surv_analysis, output_filename, sep = "\t", quote = FALSE, na = "", col.names = NA)
