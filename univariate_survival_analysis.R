@@ -5,7 +5,7 @@ library(ggplot2)
 
 # ==== SURVIVAL FUNCTION ====
 bestcutoff <- function(datavector, clintable) {
-  breaks <- quantile(datavector, probs = seq(0.25, 0.75, by= 0.01))
+  breaks <- quantile(datavector, probs = seq(0.25, 0.75, by = 0.01), na.rm = TRUE)
   cutoff.table <- t(sapply(breaks, function(z) cutoff(datavector = datavector, cutpoint = z, clintable = clintable)))
   colnames(cutoff.table) <- c("cutoff", "pvalue")
   #cutoff.table
@@ -29,21 +29,23 @@ cancer_genes = read.table(cancer_genes_file, sep = "\t",  header = T, check.name
 # Reading clinical table
 clinical = read.table(clin_file, sep = "\t", header = T, row.names = 1, check.names = F)
 
-surv_analysis = as.data.frame(matrix(nrow = 1051, ncol = 107))
+surv_analysis = as.data.frame(matrix(nrow = 911, ncol = 107))
 
 for (a in 1:length(exp_files)){
   # Reading expression table
   expression = read.table(exp_files[a], header = T, sep = "\t", check.names = F, row.names = 1)
+  print(all(is.na(expression)))
   
   tumor_type = strsplit(exp_files[a], split = "[/,_]")
-  tumor_type = sapply(tumor_type, "[[", 9)
+  #tumor_type = sapply(tumor_type, "[[", 9)
   
   cases = intersect(colnames(expression), rownames(clinical))
   expression = expression[, cases]
+  print(all(is.na(expression)))
   clintable = clinical[cases, ]
   
-  surv_time = as.numeric(clintable[[3]]) # OS = column 3; RFS = column 5
-  surv_events = as.numeric(clintable[[4]]) # OS = column 4; RFS = column 6
+  surv_time = as.numeric(clintable[["days_difference"]]) # OS = column 3; RFS = column 5
+  surv_events = as.numeric(clintable[["demographic.vital_status"]]) # OS = column 4; RFS = column 6
   
   for (b in 1:nrow(cancer_genes)){
     tryCatch(
@@ -127,7 +129,6 @@ surv_analysis[[1]] = as.character(cancer_genes[[1]])
 surv_analysis[[2]] = as.character(cancer_genes[[2]])
 surv_analysis[[3]] = as.character(cancer_genes[[3]])
 
-setwd("~/Documents/TCGA_PanCancer/Statistics")
 write.table(surv_analysis, "PanCancer_hallmarkgenes_OS_survival_results.txt", sep = "\t", quote = F, na = "", col.names = NA)
 
 #############################

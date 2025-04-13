@@ -31,7 +31,7 @@ counts_first <- df_first[, 4, drop = FALSE]  # Counts assumed in column 4
 colnames(counts_first) <- sample_id
 
 # Create the combined table with gene names and the first sample's counts
-combined_table <- data.frame(gene_name = gene_names, counts_first, stringsAsFactors = FALSE)
+combined_table <- data.frame(gene_name = gene_names, counts_first, stringsAsFactors = FALSE, check.names = FALSE)
 
 # 4. Loop over the remaining files and combine count columns
 for (file in files[-1]) {
