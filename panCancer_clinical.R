@@ -1,7 +1,7 @@
 library(data.table)
 
 # Read in the sample and clinical sheets
-sample_sheet <- read.delim("gdc_sample_sheet.2025-04-18 (6).tsv", 
+sample_sheet <- read.delim("gdc_sample_sheet.2025-04-18 (3).tsv", 
                            header = TRUE, sep = "\t", stringsAsFactors = FALSE)
 clinical_sheet <- fread("clinical.tsv")
 

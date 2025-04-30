@@ -153,7 +153,7 @@ for (h in seq_along(gs_codes)) {
       conf.int = FALSE, legend.title = "Expression",
       legend.labs = c("Low", "High"),
       palette = c("black", "red"),
-      xlab = "Time (months)", ylab = "Survival probability",
+      xlab = "Time (days)", ylab = "Survival probability",
       title = paste0(tumor, " - ", hallmark_label),
       risk.table.height = 0.25
     )

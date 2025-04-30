@@ -1,6 +1,6 @@
 # 1. Read the sample sheet mapping file
 # Adjust the file name/path as necessary
-sample_sheet <- read.delim("gdc_sample_sheet.2025-04-18 (6).tsv", 
+sample_sheet <- read.delim("gdc_sample_sheet.2025-04-18 (3).tsv", 
                            header = TRUE, sep = "\t", stringsAsFactors = FALSE)
 
 # In this sample sheet:

@@ -171,6 +171,21 @@ for (a in 1:length(exp_files)) {
   log_debug(paste("Finished processing tumor type: ", tumor_type[1]))
 }
 
+raw_p    <- as.numeric(surv_analysis[,4])
+
+# 2) Compute Bonferroni‐adjusted p-values across those tests
+p_bonf   <- p.adjust(raw_p, method = "bonferroni")
+
+# 3) Bind that vector into your data frame as a new column
+surv_analysis$Pvalue_Bonferroni <- p_bonf
+
+# 4) Re-order so that the Bonferroni column sits in position 5
+surv_analysis <- surv_analysis[, c(
+  1:4,                           # gene info + raw p-value
+  ncol(surv_analysis),           # the newly added Bonferroni
+  5:(ncol(surv_analysis)-1)      # all the remaining columns
+)]
+
 # ==== SAVE RESULTS ====
 # Add gene names (if needed) before writing
 surv_analysis[[1]] <- as.character(cancer_genes[[1]])
